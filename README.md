@@ -1,44 +1,20 @@
-Warhammer 40,000 7th Edition
+Warhammer 40,000 7th Edition - Project 7.10
 ============================
 
-[![Join the chat at https://gitter.im/BSData/wh40k](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/BSData/wh40k?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) <- talk to us!
+The goal of Project 7.10 is to take over fixing and updating of the 7th ed repo created by the BSData organisation, along with the main goal of adding datasheets from newer editions, namely the 10th !
 
-## Important ##
+With this project, we want to truly own all our minis, new and old alike, and be able to play them all without fear of them being phased out, unbalanced or unsupported.
+Our motivation stems from the refusal to keep running the hamster wheel of new editions.
 
-### This repo is no longer maintained. Current edition data is in [wh40k repo](https://github.com/BSData/wh40k) ###
-
-__BattleScribe v1.15 users Notice__: _All the files in their last revisions for BattleScribe v1.15 are available in [release v4.18.7](https://github.com/BSData/wh40k-7th-edition/releases/tag/v4.18.7). Downloading .bsr file (one of the Downloads) and importing it in BattleScribe v1.15 will allow you to use these no-longer-maintained datafiles._
-
-__6th ed users Notice__: _All the files in their last revisions for 6th are available in [release v3.1.4](https://github.com/BSData/wh40k-7th-edition/releases/tag/v3.1.4). Downloading .bsr file (green button) and importing it in BattleScribe_ __won't__ _mess with 7th ed files._
-
-#### Contents ####
-
-* [Important][]
-* [Overview][]
-* [Links][]
-
-[Important]: #important
-[Overview]: #overview
-[Links]: #links
+We will try in any case to provide balanced, fair, fun and lore accurate datasheets. No broken or OP datasheets ! Any feedback is welcome as we might not be able to playtest all of the datasheets.
+We strongly suggest using the codices along with the ProHammer 2.4 ruleset !
 
 
-## Overview ##
+ProHammer links
+Dakka thread
+https://www.dakkadakka.com/dakkaforum/posts/list/796101.page
 
-* __What's this?__
-  
-  _BSData organisation created this project. It's GitHub repository of datafiles. Created by community, in no way endorsed by BattleScribe._
+Discord server
+https://discord.gg/v6m9Tb7j6
 
-* __Okay, nice project. Is it actually working?__ I just want those files...
-  
-  _Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]_
-
-## Links ##
-
-* [BattleScribe homepage][]
-* [BattleScribe Data on Appspot][]
-* [Getting Started wiki][]
-
-
-[BattleScribe homepage]: http://www.battlescribe.net/
-[BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
-[Getting Started wiki]: https://github.com/BSData/bsdata/wiki/Home#getting-started
+We naturally offer our thanks to the BSData team who realized the first version of this repo.
