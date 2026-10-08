@@ -10718,12 +10718,20 @@ When operating in squadrons, roll once for the movement of the entire squadron i
     <rule name="Mob Rule" id="b2bcc5eb-8b54-d781-9bc4-d98238313546" hidden="false" page="92" publicationId="5e29cf46--pubN66707">
       <description>If every model in a unit has this special rule, and the unit fails a Morale check or Pinning test (after any re-rolls they may have), roll immediately on the following table:
 
-D6	Result
-1: 	If the unit is locked in combat, it is treated as if it had passed the Morale check or Pinning test. If the unit is not locked in combat, it fails the Morale check or Pinning test.
 
-2-3:	If the unit includes one or more Ork characters (including Independent Characters), it suffers D6 Strength 4 AP- hits, and is then treated as if it had passed the Moral check or Pinning test. These hits are Randomly Allocate, but cannot be allocated to Ork characters (any excess hits are lost). If the unit does not include any Ork characters, it fails the Morale check or Pinning test.
+D6 Result:
 
-4-6:	If the unit has 10 or more models, it suffers D6 Strength 4 AP- hits, and is then treated as if it had passed the Moral check or Pinning test. The hits are Randomly Allocated. If the unit has fewer than 10 models, it fails the Moral check or Pinning test.</description>
+
+1 Born to Fight: Orks love fighting, and the prospect of a good punch-up will sometimes stop them from running off.
+If the unit is locked in combat, it is treated as if it had passed the Morale check or Pinning test. If the unit is not locked in combat, it fails the Morale check or Pinning test. 
+
+
+2-3 Breaking Heads: The mob’s leader knocks a few heads together until the ladz settle down and get back in the fight.
+If the unit includes one or more Ork characters (including Independent Characters), it suffers D6 Strength 4 AP`-` hits, and is then treated as if it had passed the Morale check or Pinning test. These hits are Randomly Allocated, but cannot be allocated to Ork characters (any excess hits are lost). If the unit does not include any Ork characters, it fails the Morale check or Pinning test. 
+
+
+4-6 Squabble: A brawl breaks out as the Orks decide what to do. When the dust settles, nobody can remember what the trouble was about in the first place.
+If the unit has 10 or more models, it suffers D6 Strength 4 AP`-` hits, and is then treated as if it had passed the Morale check or Pinning test. The hits are Randomly Allocated. If the unit has fewer than 10 models, it fails the Morale check or Pinning test. </description>
     </rule>
     <rule name="Monstrous Transport" id="9f95090c-c4e6-1d41-b3f0-820ae80c7935" hidden="false" page="118" publicationId="5e29cf46--pubN76327"/>
     <rule name="Nest of Vipers" id="bbeb7a10-8f6d-d718-e6af-d8a58101b182" hidden="false" page="61" publicationId="5e29cf46--pubN66707"/>
