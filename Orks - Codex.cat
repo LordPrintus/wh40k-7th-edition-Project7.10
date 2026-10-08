@@ -22339,25 +22339,31 @@ Roles only while operating as Zooming Flyers. If they exit the board into Ongoin
       <entryLinks>
         <entryLink name="HQ" id="01c1-796b-ac60-1050" hidden="false" import="true" targetId="a9d2-7495-983f-54a6" type="selectionEntry"/>
       </entryLinks>
+      <infoLinks>
+        <infoLink name="&apos;Ere We Go!" id="bdbb-3bd2-977e-151c" hidden="false" targetId="2b4f220f-06c3-dd73-c9f2-a9a0ff17860e" type="rule"/>
+        <infoLink name="Furious Charge" id="a9c2-5d4a-4230-57d4" hidden="false" targetId="b6da-cce3-2346-9c27" type="rule"/>
+        <infoLink name="Mob Rule" id="cdd7-6225-5e3d-d0e9" hidden="false" targetId="b2bcc5eb-8b54-d781-9bc4-d98238313546" type="rule"/>
+      </infoLinks>
       <profiles>
         <profile name="Big Mek Dakkarig (v11)" id="b779-7af6-bb1d-bf8e" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
           <characteristics>
             <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
             <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">2</characteristic>
-            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">5</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">6</characteristic>
             <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">10</characteristic>
             <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">10</characteristic>
             <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
             <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
-            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
             <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Walker), Character, Open-Topped</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule name="Even More Dakka" id="f711-660e-93b6-d5b3" hidden="false"/>
-        <rule name="Blitz Dem Gitz!" id="c3d0-c3a6-3fe2-55f8" hidden="false"/>
+        <rule name="Blitz Dem Gitz!" id="c3d0-c3a6-3fe2-55f8" hidden="false">
+          <description>In your shooting phase, if this unit&apos;s Blitzkannon weapon targets a unit that has the Infantry or Beast keyword, it gains Assault 3.</description>
+        </rule>
       </rules>
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapons" id="1229-7ea4-93ef-bf90" hidden="false">
@@ -22365,25 +22371,25 @@ Roles only while operating as Zooming Flyers. If they exit the board into Ongoin
             <profile name="Stompy Feet" id="ade6-be1d-b7b0-04d3" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464"/>
-                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45"/>
-                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f"/>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
               </characteristics>
             </profile>
             <profile name="Multi-Busta Launcha" id="4513-0118-8539-3697" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464"/>
-                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45"/>
-                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f"/>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ignores Cover</characteristic>
               </characteristics>
             </profile>
             <profile name="Blitzkannon" id="ef7e-067f-b13f-fa0e" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464"/>
-                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45"/>
-                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f"/>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ignores Cover</characteristic>
               </characteristics>
             </profile>
           </profiles>
