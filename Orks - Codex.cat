@@ -10639,9 +10639,10 @@ As such &amp; with the consent of your opponents, they may add colour to friendl
     <rule name="Formation Restriction: Krew Boss" id="38427a12-a1f1-e6a0-0c58-496041cc1354" hidden="false" page="120" publicationId="5e29cf46--pubN76327"/>
     <rule name="Formation Restriction: Supreme Warboss" id="afa182d7-e94d-7c5e-0461-62c15efc38a0" hidden="false" page="0" publicationId="5e29cf46--pubN68654"/>
     <rule name="Full Speed Ahead!" id="d7eb3420-dfcf-7347-ffe1-ebe8049ac555" hidden="false" publicationId="5e29cf46--pubN163664">
-      <description>Grot Tanks move 2D6&quot; per turn instead of moving like other vehicles, but may still fire all of their weapons without penalty.  If a squad of Grot Tanks opts to move Flat Out, it moves D6&quot;.  Grot Tanks ignore difficult terrain, but are affected by dangerous terrain.
+      <description>Grot Tanks move 2D6&quot; per turn as opposed to the standard rules for vehicle movement, but may still fire all of their weapons without penalty. If a squadron of Grot Tanks opts to move Flat Out, it moves D6&quot;. Note that all Grot Tank movement ignores the effects of difficult terrain, but is affected by dangerous terrain as normal. 
 
-Roll once for the entire squadron.  If a double 1 is rolled, on Grot Tank suffers a Penetrating hit.</description>
+
+When operating in squadrons, roll once for the movement of the entire squadron in each turn – not once for each Grot Tank in the squadron. If a double 1 is rolled for a squadron’s movement, one Grot Tank (chosen by the Ork player) suffers a Penetrating hit.</description>
     </rule>
     <rule name="Fully Automated" id="ebc5a0a0-b1ff-0523-b9df-93e2950c6a92" hidden="false" page="0" publicationId="5e29cf46--pubN180817"/>
     <rule name="Ghazghkull&apos;s Leftenuntz" id="fd7f4504-57fc-802c-dddb-e0c92d0ee751" hidden="false" page="56" publicationId="5e29cf46--pubN107551">
@@ -10774,7 +10775,7 @@ D6	Result
       <description>Once per game, at the start of a Dogfight phase or your Movement phase, a Wazbom Blastajet can trigger its Rokkit Boostaz.  When it does, it has a Pursuit value of 6 and an Agility value of 1 until the end of the turn or Dogfight.</description>
     </rule>
     <rule name="Rolling Scrap Pile" id="7f064968-8d5e-4ce6-4da6-d10740785483" hidden="false" publicationId="5e29cf46--pubN163664">
-      <description>Grot Tanks have a 5+ invul save except those of Ordnance, Destroyer, or Armourbane weapons.</description>
+      <description>Grot Tanks have a 5+ invulnerable save against all attacks, except those of weapons with the Ordnance, Destroyer or Armourbane special rules or types.</description>
     </rule>
     <rule name="Rumbler" id="fe52a691-48ea-7742-ed5f-26feff4e7044" hidden="false" page="47" publicationId="5e29cf46--pubN85636"/>
     <rule name="Scorch da Earth" id="435d-4dae-7225-f0e9" hidden="false" page="67" publicationId="5e29cf46--pubN107551"/>
@@ -22337,7 +22338,8 @@ Roles only while operating as Zooming Flyers. If they exit the board into Ongoin
         <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
-        <entryLink name="HQ" id="01c1-796b-ac60-1050" hidden="false" import="true" targetId="a9d2-7495-983f-54a6" type="selectionEntry"/>
+        <entryLink name="HQ" id="01c1-796b-ac60-1050" hidden="false" import="true" sortIndex="1" targetId="a9d2-7495-983f-54a6" type="selectionEntry"/>
+        <entryLink name="Warlord" id="7220-ee6e-a930-c01d" collective="false" hidden="false" import="true" sortIndex="2" targetId="f3aee269-2f69-f57e-eaea-6a91ac502357" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="&apos;Ere We Go!" id="bdbb-3bd2-977e-151c" hidden="false" targetId="2b4f220f-06c3-dd73-c9f2-a9a0ff17860e" type="rule"/>
@@ -22365,8 +22367,44 @@ Roles only while operating as Zooming Flyers. If they exit the board into Ongoin
           <description>In your shooting phase, if this unit&apos;s Blitzkannon weapon targets a unit that has the Infantry or Beast keyword, it gains Assault 3.</description>
         </rule>
       </rules>
+      <selectionEntries>
+        <selectionEntry name="Mek&apos;s Tools" id="31c4-84ac-fc80-185a" collective="false" hidden="false" import="true" page="0" sortIndex="4" type="upgrade">
+          <constraints>
+            <constraint id="e404-6d56-25da-fa54" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+            <constraint id="139c-1106-8c9f-e33c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mek&apos;s Tools" id="dd36-7bf2-42e8-e746" hidden="false" targetId="c0eff1d5-cadd-e3dd-37c1-aba29f3b0981" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="Kustom Force Field" id="918f-4c25-adbb-2676" collective="false" hidden="false" import="true" page="0" sortIndex="5" type="upgrade">
+          <constraints>
+            <constraint id="66dd-ab06-28c9-2781" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="75"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Kustom Force Field" id="5359-792a-1736-17ba" hidden="false" targetId="0af25ce1-419d-128b-d06b-f5bc2901990a" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="Bosspole" id="446b-5f41-6c5d-909f" collective="false" hidden="false" import="true" page="0" sortIndex="3" type="upgrade">
+          <constraints>
+            <constraint id="0ba3-e4a9-70f1-eaeb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Bosspole" id="a9d0-ee10-8fb4-c94d" hidden="false" targetId="0aab2fa5-3bfe-1360-2436-d99e79889668" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Weapons" id="1229-7ea4-93ef-bf90" hidden="false">
+        <selectionEntryGroup name="Weapons" id="1229-7ea4-93ef-bf90" hidden="false" sortIndex="6">
           <selectionEntries>
             <selectionEntry name="Blitzkannon" id="5216-c5bb-ebca-7c6f" hidden="false" import="true" type="upgrade">
               <constraints>
