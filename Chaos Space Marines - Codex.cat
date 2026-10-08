@@ -12317,7 +12317,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntryGroups>
                 <selectionEntryGroup name="Chaos Marine with Special Weapon" id="bd2e-af17-1ac5-d9a8" hidden="false">
                   <constraints>
-                    <constraint id="b993-d22c-45a2-1700" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="0"/>
+                    <constraint id="b993-d22c-45a2-1700" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="3b6d-80ca-c9b4-f4c4" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <selectionEntries>
@@ -12450,7 +12450,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             </selectionEntry>
             <selectionEntry name="Chaos Marine with Heavy Weapon" id="a6ed-f24b-a1da-1eb4" collapsible="true" hidden="false" import="true" sortIndex="5" type="model">
               <constraints>
-                <constraint id="5bd2-3fef-a33e-db84" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="0"/>
                 <constraint id="beb0-bbc6-b328-4279" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <infoLinks>
@@ -12466,7 +12465,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntryGroups>
                 <selectionEntryGroup name="Chaos Marine with Heavy Weapon" id="818e-9731-ac83-f9b2" hidden="false">
                   <constraints>
-                    <constraint id="4bd1-93a8-331c-71ac" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="0"/>
+                    <constraint id="4bd1-93a8-331c-71ac" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="2397-df21-f0e2-4e37" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <selectionEntries>
