@@ -22330,12 +22330,12 @@ Roles only while operating as Zooming Flyers. If they exit the board into Ongoin
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry name="Big Mek Dakkarig (v11)" id="e8a5-1c07-50bb-91e9" hidden="false" import="true" page="0" type="model">
-      <categoryLinks>
-        <categoryLink name="HQ" id="7145-5320-b0cc-cb84" hidden="false" primary="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
-      </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="110"/>
       </costs>
+      <entryLinks>
+        <entryLink name="HQ" id="01c1-796b-ac60-1050" hidden="false" import="true" targetId="a9d2-7495-983f-54a6" type="selectionEntry"/>
+      </entryLinks>
       <profiles>
         <profile name="Big Mek Dakkarig (v11)" id="b779-7af6-bb1d-bf8e" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
           <characteristics>
