@@ -1096,6 +1096,7 @@
         <categoryLink name="Command" id="bfb6-188e-ad7f-971f-9050-d437-3301-7e42" hidden="false" primary="true" targetId="9050-d437-3301-7e42"/>
       </categoryLinks>
     </entryLink>
+    <entryLink name="Big Mek Dakkarig (v11)" id="e66a-bb91-32e8-9846" hidden="false" import="true" targetId="e8a5-1c07-50bb-91e9" type="selectionEntry"/>
   </entryLinks>
   <forceEntries>
     <forceEntry name="Ork Great Waaagh! Detachment (Waaagh Ghaz)" id="c8a1-332b-08b0-133b" hidden="false" publicationId="5e29cf46--pubN66370">
@@ -22328,7 +22329,7 @@ Roles only while operating as Zooming Flyers. If they exit the board into Ongoin
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Big Mek Dakkarig (v11)" id="e8a5-1c07-50bb-91e9" hidden="false" import="true" publicationId="5e29cf46--pubN66707" type="model">
+    <selectionEntry name="Big Mek Dakkarig (v11)" id="e8a5-1c07-50bb-91e9" hidden="false" import="true" page="0" type="model">
       <costs>
         <cost name="pts" typeId="points" value="110"/>
       </costs>
@@ -22344,11 +22345,8 @@ Roles only while operating as Zooming Flyers. If they exit the board into Ongoin
             <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
             <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
             <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">2</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Character, Vehicle (Walker, Open-topped)</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Walker), Character, Open-Topped</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier field="077c342f-d7b9-45c6-b8af-88e97cafd3a2" type="set" value="Vehicle, Walker, Character"/>
-          </modifiers>
         </profile>
       </profiles>
       <rules>
