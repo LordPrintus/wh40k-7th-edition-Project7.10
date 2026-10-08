@@ -22376,19 +22376,19 @@ Roles only while operating as Zooming Flyers. If they exit the board into Ongoin
         </rule>
       </rules>
       <selectionEntries>
-        <selectionEntry name="Mek&apos;s Tools" id="31c4-84ac-fc80-185a" collective="false" hidden="false" import="true" page="0" sortIndex="4" type="upgrade">
+        <selectionEntry name="Mek&apos;s Tools" id="31c4-84ac-fc80-185a" collective="false" hidden="false" import="true" page="0" sortIndex="3" type="upgrade">
           <constraints>
             <constraint id="e404-6d56-25da-fa54" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="0"/>
             <constraint id="139c-1106-8c9f-e33c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="5"/>
+            <cost name="pts" typeId="points" value="10"/>
           </costs>
           <infoLinks>
             <infoLink name="Mek&apos;s Tools" id="dd36-7bf2-42e8-e746" hidden="false" targetId="c0eff1d5-cadd-e3dd-37c1-aba29f3b0981" type="profile"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry name="Kustom Force Field" id="918f-4c25-adbb-2676" collective="false" hidden="false" import="true" page="0" sortIndex="5" type="upgrade">
+        <selectionEntry name="Kustom Force Field" id="918f-4c25-adbb-2676" collective="false" hidden="false" import="true" page="0" sortIndex="4" type="upgrade">
           <constraints>
             <constraint id="66dd-ab06-28c9-2781" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
@@ -22399,20 +22399,9 @@ Roles only while operating as Zooming Flyers. If they exit the board into Ongoin
             <infoLink name="Kustom Force Field" id="5359-792a-1736-17ba" hidden="false" targetId="0af25ce1-419d-128b-d06b-f5bc2901990a" type="profile"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry name="Bosspole" id="446b-5f41-6c5d-909f" collective="false" hidden="false" import="true" page="0" sortIndex="3" type="upgrade">
-          <constraints>
-            <constraint id="0ba3-e4a9-70f1-eaeb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="5"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Bosspole" id="a9d0-ee10-8fb4-c94d" hidden="false" targetId="0aab2fa5-3bfe-1360-2436-d99e79889668" type="profile"/>
-          </infoLinks>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Weapons" id="1229-7ea4-93ef-bf90" hidden="false" sortIndex="6">
+        <selectionEntryGroup name="Weapons" id="1229-7ea4-93ef-bf90" hidden="false" sortIndex="5">
           <selectionEntries>
             <selectionEntry name="Blitzkannon" id="5216-c5bb-ebca-7c6f" hidden="false" import="true" type="upgrade">
               <constraints>
