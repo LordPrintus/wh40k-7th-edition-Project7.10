@@ -12452,15 +12452,15 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <selectionEntry name="Chaos Marine with Heavy Weapon" id="a6ed-f24b-a1da-1eb4" collapsible="true" hidden="false" import="true" sortIndex="5" type="model">
               <constraints>
                 <constraint id="5bd2-3fef-a33e-db84" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="0"/>
-                <constraint id="029f-e820-3d16-aca8" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="beb0-bbc6-b328-4279" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <infoLinks>
                 <infoLink name="Chaos Space Marine" id="02b3-f6e4-957c-a6e5" hidden="false" targetId="cef7-df67-8048-1589" type="profile"/>
               </infoLinks>
               <modifiers>
-                <modifier field="029f-e820-3d16-aca8" type="set" value="1">
+                <modifier field="beb0-bbc6-b328-4279" type="set" value="0">
                   <conditions>
-                    <condition childId="any" field="selections" includeChildSelections="false" scope="parent" shared="true" type="atLeast" value="10"/>
+                    <condition childId="any" field="selections" includeChildSelections="false" scope="parent" shared="true" type="lessThan" value="10"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -12469,7 +12469,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                   <constraints>
                     <constraint id="4bd1-93a8-331c-71ac" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="0"/>
                     <constraint id="2397-df21-f0e2-4e37" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="d6d3-7e99-893d-69ec" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <selectionEntries>
                     <selectionEntry name="Flamer" id="8b0b-1632-0f8b-7ba6" hidden="false" import="true" sortIndex="1" type="upgrade">
