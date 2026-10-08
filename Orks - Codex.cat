@@ -1097,6 +1097,7 @@
       </categoryLinks>
     </entryLink>
     <entryLink name="Big Mek Dakkarig (v11)" id="e66a-bb91-32e8-9846" hidden="false" import="true" targetId="e8a5-1c07-50bb-91e9" type="selectionEntry"/>
+    <entryLink name="Big Mek Dakkarig (v11)" id="7317-534a-10c4-9d41" hidden="false" import="true" targetId="e8a5-1c07-50bb-91e9" type="selectionEntry"/>
   </entryLinks>
   <forceEntries>
     <forceEntry name="Ork Great Waaagh! Detachment (Waaagh Ghaz)" id="c8a1-332b-08b0-133b" hidden="false" publicationId="5e29cf46--pubN66370">
