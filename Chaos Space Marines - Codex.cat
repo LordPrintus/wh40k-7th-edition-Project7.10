@@ -12458,9 +12458,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <infoLink name="Chaos Space Marine" id="02b3-f6e4-957c-a6e5" hidden="false" targetId="cef7-df67-8048-1589" type="profile"/>
               </infoLinks>
               <modifiers>
-                <modifier field="d9e6-0e17-aca1-adc3" type="set" value="0">
+                <modifier field="dc60-93bb-f492-c717" type="set" value="0">
                   <conditions>
-                    <condition childId="any" field="selections" includeChildSelections="false" scope="parent" shared="true" type="lessThan" value="9"/>
+                    <condition childId="any" field="selections" scope="parent" shared="true" type="lessThan" value="9"/>
                   </conditions>
                 </modifier>
               </modifiers>
