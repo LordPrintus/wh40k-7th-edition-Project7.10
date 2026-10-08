@@ -22328,12 +22328,9 @@ Roles only while operating as Zooming Flyers. If they exit the board into Ongoin
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Big Mek Dakkarig (v11)" id="e8a5-1c07-50bb-91e9" hidden="false" import="true" type="unit">
-      <categoryLinks>
-        <categoryLink name="HQ" id="ec8f-341c-8f5c-6e10" hidden="false" primary="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
-      </categoryLinks>
+    <selectionEntry name="Big Mek Dakkarig (v11)" id="e8a5-1c07-50bb-91e9" hidden="false" import="true" publicationId="5e29cf46--pubN66707" type="model">
       <costs>
-        <cost name="pts" typeId="points" value="75"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <profiles>
         <profile name="Big Mek Dakkarig (v11)" id="b779-7af6-bb1d-bf8e" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
