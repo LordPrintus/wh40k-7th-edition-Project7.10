@@ -1097,7 +1097,6 @@
       </categoryLinks>
     </entryLink>
     <entryLink name="Big Mek Dakkarig (v11)" id="e66a-bb91-32e8-9846" hidden="false" import="true" targetId="e8a5-1c07-50bb-91e9" type="selectionEntry"/>
-    <entryLink name="Big Mek Dakkarig (v11)" id="7317-534a-10c4-9d41" hidden="false" import="true" targetId="e8a5-1c07-50bb-91e9" type="selectionEntry"/>
   </entryLinks>
   <forceEntries>
     <forceEntry name="Ork Great Waaagh! Detachment (Waaagh Ghaz)" id="c8a1-332b-08b0-133b" hidden="false" publicationId="5e29cf46--pubN66370">
@@ -22331,6 +22330,9 @@ Roles only while operating as Zooming Flyers. If they exit the board into Ongoin
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry name="Big Mek Dakkarig (v11)" id="e8a5-1c07-50bb-91e9" hidden="false" import="true" page="0" type="model">
+      <categoryLinks>
+        <categoryLink name="HQ" id="aff9-9185-bd48-62d4" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="110"/>
       </costs>
