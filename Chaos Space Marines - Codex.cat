@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Chaos Space Marines: Codex (2012)" id="5af86795-95c1-a1eb-c333-17137242b62f" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2031" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Chaos Space Marines: Codex (2012)" id="5af86795-95c1-a1eb-c333-17137242b62f" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2032" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Core" id="bf93-7277-bf48-16f7" hidden="false"/>
     <categoryEntry name="Command" id="9050-d437-3301-7e42" hidden="false"/>
@@ -14147,7 +14147,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <entryLink name="Bolt Pistol" id="428e-015c-9994-d742" collective="false" hidden="false" import="true" targetId="0fb1-728b-64a6-603d" type="selectionEntry"/>
               </entryLinks>
               <selectionEntries>
-                <selectionEntry name="Boltgun" id="c8ce-f61d-c521-a0ab" hidden="false" import="true" page="" type="upgrade">
+                <selectionEntry name="Boltgun" id="c8ce-f61d-c521-a0ab" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="4d7f-e8a3-88ec-8cca" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="758e-6ff5-b0dd-de8c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
@@ -14285,29 +14285,15 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                   <selectionEntries>
                     <selectionEntry name="Ranged Weapon" id="279d-66fa-f637-b3ce" hidden="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint id="414b-ce5e-9c7b-9730" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
                         <constraint id="0c17-27c9-adb6-9e51" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
-                      <modifiers>
-                        <modifier field="error" type="add" value="1 Ranged weapon must be selected">
-                          <conditions>
-                            <condition childId="any" field="selections" scope="parent" shared="true" type="greaterThan" value="1"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
                       <selectionEntries>
-                        <selectionEntry name="Boltgun" id="13b0-4319-16f8-24b2" hidden="false" import="true" page="" type="upgrade">
-                          <constraints>
-                            <constraint id="6535-acb8-08ed-2f0b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                          </constraints>
+                        <selectionEntry name="Boltgun" id="13b0-4319-16f8-24b2" hidden="false" import="true" type="upgrade">
                           <infoLinks>
                             <infoLink name="Boltgun" id="db75-22aa-6a7a-c760" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
                           </infoLinks>
                         </selectionEntry>
                         <selectionEntry name="Combi-bolter" id="7e09-c0b7-66aa-3c00" hidden="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint id="4c7d-2077-1bdf-aa73" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                          </constraints>
                           <costs>
                             <cost name="pts" typeId="points" value="3"/>
                           </costs>
@@ -14316,9 +14302,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                           </infoLinks>
                         </selectionEntry>
                         <selectionEntry name="Flamer" id="296e-3622-c026-65e5" hidden="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint id="723d-ca98-cd30-a8da" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                          </constraints>
                           <costs>
                             <cost name="pts" typeId="points" value="5"/>
                           </costs>
@@ -14327,9 +14310,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                           </infoLinks>
                         </selectionEntry>
                         <selectionEntry name="Combi-flamer, -melta or -plasma" id="c377-1f54-ef9d-7cb3" hidden="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint id="9c50-7b22-4a4a-dd6f" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                          </constraints>
                           <costs>
                             <cost name="pts" typeId="points" value="10"/>
                           </costs>
@@ -14340,9 +14320,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                           </infoLinks>
                         </selectionEntry>
                         <selectionEntry name="Meltagun" id="8d0d-7d0e-bd9a-818a" hidden="false" import="true" page="Meltagun" type="upgrade">
-                          <constraints>
-                            <constraint id="3ba2-472e-167c-c0c5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                          </constraints>
                           <costs>
                             <cost name="pts" typeId="points" value="10"/>
                           </costs>
@@ -14351,9 +14328,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                           </infoLinks>
                         </selectionEntry>
                         <selectionEntry name="Plasma Gun" id="d036-ac8b-a2e8-2aba" hidden="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint id="292d-37cb-b53c-f8bf" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                          </constraints>
                           <costs>
                             <cost name="pts" typeId="points" value="15"/>
                           </costs>
