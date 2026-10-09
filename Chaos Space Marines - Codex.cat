@@ -15831,6 +15831,13 @@ The nominated unit has Fearless and +1 Strength for the entire game.</descriptio
           </modifiers>
         </entryLink>
       </entryLinks>
+      <modifiers>
+        <modifier field="category" type="remove" value="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6">
+          <conditions>
+            <condition childId="76ea-9f16-a18f-7520" childName="Iron Warriors" field="selections" includeChildSelections="true" scope="force" shared="true" type="equalTo" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <selectionEntries>
         <selectionEntry name="Aspiring Champion" id="0be1-fcde-7b87-9627" collective="false" hidden="false" import="true" page="0" type="model">
           <constraints>
@@ -19075,6 +19082,11 @@ Enemy units that are within 12&quot; of at least two units from this formation s
         <modifier field="hidden" type="set" value="true">
           <conditions>
             <condition childId="f1c4-09e2-1971-7362" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0"/>
+          </conditions>
+        </modifier>
+        <modifier field="category" type="remove" value="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6">
+          <conditions>
+            <condition childId="76ea-9f16-a18f-7520" childName="Iron Warriors" field="selections" includeChildSelections="true" scope="force" shared="true" type="equalTo" value="1"/>
           </conditions>
         </modifier>
       </modifiers>
