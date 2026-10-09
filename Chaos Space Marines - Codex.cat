@@ -14283,82 +14283,78 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     </profile>
                   </profiles>
                   <selectionEntries>
-                    <selectionEntry name="Boltgun" id="13b0-4319-16f8-24b2" hidden="false" import="true" page="" sortIndex="3" type="upgrade">
+                    <selectionEntry name="Ranged Weapon" id="279d-66fa-f637-b3ce" hidden="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint id="6535-acb8-08ed-2f0b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="69a2-6fb6-be6f-213f-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-                        <constraint id="69a2-6fb6-be6f-213f-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="b928-e018-141f-48e4-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="b928-e018-141f-48e4-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
-                      <infoLinks>
-                        <infoLink name="Boltgun" id="db75-22aa-6a7a-c760" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry name="Combi-bolter" id="7e09-c0b7-66aa-3c00" hidden="false" import="true" sortIndex="4" type="upgrade">
-                      <constraints>
-                        <constraint id="4c7d-2077-1bdf-aa73" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="6821-32d3-13eb-297e-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-                        <constraint id="6821-32d3-13eb-297e-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="3"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Combi-Bolter" id="18a3-f62d-f761-1895" hidden="false" targetId="40d66948-d966-cfee-bbec-f78da952dd38" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry name="Flamer" id="296e-3622-c026-65e5" hidden="false" import="true" sortIndex="5" type="upgrade">
-                      <constraints>
-                        <constraint id="723d-ca98-cd30-a8da" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="2ba8-e96a-7a3d-856f-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-                        <constraint id="2ba8-e96a-7a3d-856f-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="5"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Flamer" id="7a7e-85f5-9cff-fce2" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry name="Combi-flamer, -melta or -plasma" id="c377-1f54-ef9d-7cb3" hidden="false" import="true" sortIndex="6" type="upgrade">
-                      <constraints>
-                        <constraint id="9c50-7b22-4a4a-dd6f" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="2cf0-d5cb-f3f3-6413-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-                        <constraint id="2cf0-d5cb-f3f3-6413-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="10"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Combi-Flamer" id="9c60-e135-f316-ccd6" hidden="false" targetId="122f-02f5-9d74-2af9" type="profile"/>
-                        <infoLink name="Combi-Plasma" id="4720-e980-802b-714c" hidden="false" targetId="98b1-768b-1948-d6db" type="profile"/>
-                        <infoLink name="Combi-Melta" id="5feb-8c46-447b-b18d" hidden="false" targetId="1e05-65fd-ab51-c570" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry name="Meltagun" id="8d0d-7d0e-bd9a-818a" hidden="false" import="true" page="Meltagun" type="upgrade">
-                      <constraints>
-                        <constraint id="3ba2-472e-167c-c0c5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="27fb-5456-065a-ffe8-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-                        <constraint id="27fb-5456-065a-ffe8-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="10"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Meltagun" id="e218-54f5-3abd-8308" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry name="Plasma Gun" id="d036-ac8b-a2e8-2aba" hidden="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint id="292d-37cb-b53c-f8bf" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="8ac9-b2b7-2058-56ce-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-                        <constraint id="8ac9-b2b7-2058-56ce-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="15"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Plasma Gun" id="6236-e769-e351-95e5" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
-                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry name="Boltgun" id="13b0-4319-16f8-24b2" hidden="false" import="true" page="" type="upgrade">
+                          <constraints>
+                            <constraint id="6535-acb8-08ed-2f0b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Boltgun" id="db75-22aa-6a7a-c760" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry name="Combi-bolter" id="7e09-c0b7-66aa-3c00" hidden="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint id="4c7d-2077-1bdf-aa73" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="points" value="3"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Combi-Bolter" id="18a3-f62d-f761-1895" hidden="false" targetId="40d66948-d966-cfee-bbec-f78da952dd38" type="profile"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry name="Flamer" id="296e-3622-c026-65e5" hidden="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint id="723d-ca98-cd30-a8da" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="points" value="5"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Flamer" id="7a7e-85f5-9cff-fce2" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry name="Combi-flamer, -melta or -plasma" id="c377-1f54-ef9d-7cb3" hidden="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint id="9c50-7b22-4a4a-dd6f" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="points" value="10"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Combi-Flamer" id="9c60-e135-f316-ccd6" hidden="false" targetId="122f-02f5-9d74-2af9" type="profile"/>
+                            <infoLink name="Combi-Plasma" id="4720-e980-802b-714c" hidden="false" targetId="98b1-768b-1948-d6db" type="profile"/>
+                            <infoLink name="Combi-Melta" id="5feb-8c46-447b-b18d" hidden="false" targetId="1e05-65fd-ab51-c570" type="profile"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry name="Meltagun" id="8d0d-7d0e-bd9a-818a" hidden="false" import="true" page="Meltagun" type="upgrade">
+                          <constraints>
+                            <constraint id="3ba2-472e-167c-c0c5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="points" value="10"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Meltagun" id="e218-54f5-3abd-8308" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry name="Plasma Gun" id="d036-ac8b-a2e8-2aba" hidden="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint id="292d-37cb-b53c-f8bf" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                          <costs>
+                            <cost name="pts" typeId="points" value="15"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Plasma Gun" id="6236-e769-e351-95e5" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
+                          </infoLinks>
+                        </selectionEntry>
+                      </selectionEntries>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntry>
