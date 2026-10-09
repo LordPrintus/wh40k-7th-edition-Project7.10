@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Orks: Codex (2014)" id="5e29cf46-0edb-4f2a-8b49-7691fba3e163" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2010" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Orks: Codex (2014)" id="5e29cf46-0edb-4f2a-8b49-7691fba3e163" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2011" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Elites" id="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false"/>
     <categoryEntry name="Fast Attack" id="c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false"/>
@@ -1101,6 +1101,18 @@
   <forceEntries>
     <forceEntry name="Ork Great Waaagh! Detachment (Waaagh Ghaz)" id="c8a1-332b-08b0-133b" hidden="false" publicationId="5e29cf46--pubN66370">
       <categoryLinks>
+        <categoryLink name="HQ" id="c8a1-332b-08b0-133b-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7">
+          <constraints>
+            <constraint id="65b4-1cef-b253-d1e6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
+            <constraint id="0b12-0705-8d6c-902e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Troops" id="c8a1-332b-08b0-133b-5d76b6f5-20ae-4d70-8f59-ade72a2add3a" hidden="false" primary="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a">
+          <constraints>
+            <constraint id="a6dd-9484-3b63-3c3a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="2"/>
+            <constraint id="3c9b-1fad-61ba-ab59" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="8"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Elites" id="c8a1-332b-08b0-133b-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2">
           <constraints>
             <constraint id="da3f-763c-75e6-079a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="5"/>
@@ -1117,34 +1129,22 @@
             <constraint id="1241-3fa9-0be6-e9b8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Heavy Support" id="c8a1-332b-08b0-133b-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" primary="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6">
-          <constraints>
-            <constraint id="8ed2-f95b-6993-b567" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="3"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="HQ" id="c8a1-332b-08b0-133b-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7">
-          <constraints>
-            <constraint id="65b4-1cef-b253-d1e6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
-            <constraint id="0b12-0705-8d6c-902e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
-          </constraints>
-        </categoryLink>
         <categoryLink name="Lords of War" id="c8a1-332b-08b0-133b-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" primary="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554">
           <constraints>
             <constraint id="5c33-b9e8-79e1-2c81" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="No Force Org Slot" id="c8a1-332b-08b0-133b-ff36a6f3-19bf-4f48-8956-adacfd28fe74" hidden="false" primary="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="Heavy Support" id="c8a1-332b-08b0-133b-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" primary="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6">
+          <constraints>
+            <constraint id="8ed2-f95b-6993-b567" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="3"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Primary Detachment" id="c8a1-332b-08b0-133b-7fc5b655-812e-45ed-98ff-db8847d356da" hidden="false" primary="false" targetId="7fc5b655-812e-45ed-98ff-db8847d356da">
           <constraints>
             <constraint id="8884-0fb6-b2cf-c4a1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Troops" id="c8a1-332b-08b0-133b-5d76b6f5-20ae-4d70-8f59-ade72a2add3a" hidden="false" primary="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a">
-          <constraints>
-            <constraint id="a6dd-9484-3b63-3c3a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="2"/>
-            <constraint id="3c9b-1fad-61ba-ab59" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="8"/>
-          </constraints>
-        </categoryLink>
+        <categoryLink name="No Force Org Slot" id="c8a1-332b-08b0-133b-ff36a6f3-19bf-4f48-8956-adacfd28fe74" hidden="false" primary="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Biggest an&apos; da Best" id="be3f-95f8-079a-d02b" hidden="false" targetId="774bed60-ea1d-6c46-ce05-ac74ec91c85b" type="rule"/>
@@ -10731,7 +10731,7 @@ If the unit includes one or more Ork characters (including Independent Character
 
 
 4-6 Squabble: A brawl breaks out as the Orks decide what to do. When the dust settles, nobody can remember what the trouble was about in the first place.
-If the unit has 10 or more models, it suffers D6 Strength 4 AP`-` hits, and is then treated as if it had passed the Morale check or Pinning test. The hits are Randomly Allocated. If the unit has fewer than 10 models, it fails the Morale check or Pinning test. </description>
+If the unit has 10 or more models, it suffers D6 Strength 4 AP`-` hits, and is then treated as if it had passed the Morale check or Pinning test. The hits are Randomly Allocated. If the unit has fewer than 10 models, it fails the Morale check or Pinning test.</description>
     </rule>
     <rule name="Monstrous Transport" id="9f95090c-c4e6-1d41-b3f0-820ae80c7935" hidden="false" page="118" publicationId="5e29cf46--pubN76327"/>
     <rule name="Nest of Vipers" id="bbeb7a10-8f6d-d718-e6af-d8a58101b182" hidden="false" page="61" publicationId="5e29cf46--pubN66707"/>
@@ -22355,7 +22355,7 @@ Roles only while operating as Zooming Flyers. If they exit the board into Ongoin
         <infoLink name="Mob Rule" id="cdd7-6225-5e3d-d0e9" hidden="false" targetId="b2bcc5eb-8b54-d781-9bc4-d98238313546" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Big Mek Dakkarig (v11)" id="b779-7af6-bb1d-bf8e" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
+        <profile name="Big Mek Dakkarig" id="b779-7af6-bb1d-bf8e" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
           <characteristics>
             <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
             <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">2</characteristic>
