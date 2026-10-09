@@ -2765,7 +2765,27 @@ On a roll of a 2+, the bearer gains that many additional attacks.</description>
       <description>Once per game, a model with this rule may re-roll failed to wound/penetration rolls. Declare at the start of the shooting or assault phase that you are using this ability.
 At the end of the phase, roll a D6, on a 1 the unit loses a HP with no saves allowed.</description>
     </rule>
-    <rule name="Daemonic Instability" id="3cdee048-32be-90cc-752a-f3e198adfe8a" hidden="false"/>
+    <rule name="Daemonic Instability" id="3cdee048-32be-90cc-752a-f3e198adfe8a" hidden="false">
+      <description>Units with this special rule automatically pass Fear, Pinning and Morale tests (and cannot choose to fail any of these tests). When a unit with the Daemonic Instability special rule loses an assault, it must take a Daemonic Instability test at the Check Morale step of the Fight sub-phase. This uses the following procedure:
+
+
+1) The unit takes a Leadership test. If the dice roll is a double 1 or double 6, the Daemons’ presence fluctuates:
+
+
+Double 1 - Reality Blinks: All Wounds suffered by the unit during this phase are restored. 
+
+
+Double 6 - Banished!: Remove the entire unit from play as casualties. Enemy units that were locked in combat with only the banished unit immediately consolidate.
+
+
+2) Assuming that the unit has not rolled a Reality Blinks or a Banished! result, compare the dice roll to the Daemons’ Leadership value, taking into account modifiers, including any from the combat result.
+
+
+For each point the unit fails its Daemonic Instability test by, it suffers one additional Wound, allocated by the unit’s owning player, and with no saves of any kind allowed. 
+
+
+Note that a failed Daemonic Instability test does not cause a Daemon unit to fall back - once any casualties have been removed, the unit remains locked in combat.</description>
+    </rule>
     <rule name="Daemonic Resilience" id="7c7b47f7-5150-42a0-96f3-1b7219635aac" hidden="false" page="0">
       <description>Ignores Crew Shaken and Stunned results on a 2+</description>
     </rule>
@@ -8545,7 +8565,7 @@ When making armour penetration/To wound rolls against the chosen model, all roll
     </selectionEntry>
     <selectionEntry name="[FW] Spined Chaos Beast" id="9e80-a188-dda8-b63c" collective="false" hidden="true" import="true" page="201" publicationId="5af86795--pubN75711" type="model">
       <categoryLinks>
-        <categoryLink name="Elites" id="9e80-a188-dda8-b63c-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="2c67-7308-205a-991e" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="140"/>
@@ -8554,6 +8574,7 @@ When making armour penetration/To wound rolls against the chosen model, all roll
         <infoLink name="It Will Not Die" id="24d2-24ff-e217-ea1e" hidden="false" targetId="8de3-9e93-da02-b9dd" type="rule"/>
         <infoLink name="Fearless" id="dcbe-8427-fba7-87c9" hidden="false" targetId="8d37-2e47-4a04-58f7" type="rule"/>
         <infoLink name="Deep Strike" id="b13f-4b12-bb19-315b" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
+        <infoLink name="Daemonic Instability" id="63d1-d01b-06e6-5901" hidden="false" targetId="3cdee048-32be-90cc-752a-f3e198adfe8a" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="false">
@@ -8563,9 +8584,9 @@ When making armour penetration/To wound rolls against the chosen model, all roll
         </modifier>
       </modifiers>
       <profiles>
-        <profile name="[FW] Spined Chaos Beast" id="f6f0-01d5-00bc-ce87" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+        <profile name="Spined Chaos Beast" id="f6f0-01d5-00bc-ce87" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
           <characteristics>
-            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Monsterous Creature</characteristic>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Monstrous Creature</characteristic>
             <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
             <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">1</characteristic>
             <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">7</characteristic>
@@ -8577,9 +8598,22 @@ When making armour penetration/To wound rolls against the chosen model, all roll
             <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
           </characteristics>
         </profile>
+        <profile name="Large Fangs and Claws" id="01f2-8c07-329f-b673" hidden="false" page="102" publicationId="5af86795--pubN120162" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+            <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+            <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>
+          </characteristics>
+        </profile>
       </profiles>
+      <rules>
+        <rule name="Mark of Chaos" id="10d4-4ff3-9b3c-e53f" hidden="false">
+          <description>The Spined Chaost Beast must be given a Mark of Chaos.</description>
+        </rule>
+      </rules>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Daemon of" id="2ca0-89bb-0c5d-6d57" collective="false" hidden="false" import="true">
+        <selectionEntryGroup name="Mark of Chaos" id="2ca0-89bb-0c5d-6d57" collective="false" hidden="false" import="true">
           <constraints>
             <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
