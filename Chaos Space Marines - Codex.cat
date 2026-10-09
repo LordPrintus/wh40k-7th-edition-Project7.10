@@ -13670,16 +13670,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <cost name="pts" typeId="points" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Chaos Rhino" id="4857-b89d-829a-aa13" collective="false" hidden="false" import="true" targetId="92082917-801e-6a7c-2d3e-c14721c244bc" type="selectionEntry">
-          <constraints>
-            <constraint id="5f4f-dbbb-60d9-b7b5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
-          </constraints>
-        </entryLink>
-        <entryLink name="[FW] Chaos Dreadclaw Drop Pod" id="fc1c-035e-1f9e-7a5d" collective="false" hidden="false" import="true" targetId="259a-3ce5-8ebb-f7f7" type="selectionEntry">
-          <constraints>
-            <constraint id="bc64-9d23-0e7d-a34a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
-          </constraints>
-        </entryLink>
         <entryLink name="Draznicht&apos;s Ravagers" id="e3f7-bc5a-4a11-9d5c" collective="false" hidden="false" import="true" targetId="a5dbfed5-7768-9674-4650-71a5c5103417" type="selectionEntry"/>
         <entryLink name="Veterans of the Long War" id="2fc8-462c-b6cd-a4cc" collective="false" hidden="false" import="true" targetId="4b22-0159-608f-b59d" type="selectionEntry">
           <modifiers>
@@ -13766,24 +13756,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry name="Chosen with Boltgun, CCW and Boltpistol" id="f545-3bb3-ae28-bf50" collective="false" hidden="false" import="true" page="0" type="model">
-          <constraints>
-            <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="4"/>
-            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="9"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="18"/>
-          </costs>
-          <entryLinks>
-            <entryLink name="Frag and Krak Grenades" id="cc73-545f-77a4-8a84" collective="false" hidden="false" import="true" targetId="6f76-b208-b053-f904" type="selectionEntry"/>
-            <entryLink name="Close Combat Weapon" id="a398-963e-af8a-9360" collective="false" hidden="false" import="true" targetId="73ec-1ed3-aa0d-c08c" type="selectionEntry"/>
-            <entryLink name="Bolt Pistol" id="428e-015c-9994-d742" collective="false" hidden="false" import="true" targetId="0fb1-728b-64a6-603d" type="selectionEntry"/>
-          </entryLinks>
-          <infoLinks>
-            <infoLink name="Boltgun" id="c147-7c08-1a19-a795" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry name="Chosen Champion" id="7b76-80e2-5dec-8e70" collective="false" hidden="false" import="true" page="0" type="model">
+        <selectionEntry name="Chosen Champion" id="7b76-80e2-5dec-8e70" collective="false" hidden="false" import="true" page="0" sortIndex="1" type="model">
           <constraints>
             <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -14157,6 +14130,387 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Chosen" id="c251-033f-9007-dded" hidden="false" sortIndex="2">
+          <constraints>
+            <constraint id="f3d1-046e-e7c9-39aa" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="4"/>
+            <constraint id="f3aa-328f-e76b-d9e8" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="9"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Chosen with Boltgun, CCW and Boltpistol" id="f545-3bb3-ae28-bf50" collective="false" hidden="false" import="true" page="0" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="18"/>
+              </costs>
+              <entryLinks>
+                <entryLink name="Frag and Krak Grenades" id="cc73-545f-77a4-8a84" collective="false" hidden="false" import="true" targetId="6f76-b208-b053-f904" type="selectionEntry"/>
+                <entryLink name="Close Combat Weapon" id="a398-963e-af8a-9360" collective="false" hidden="false" import="true" targetId="73ec-1ed3-aa0d-c08c" type="selectionEntry"/>
+                <entryLink name="Bolt Pistol" id="428e-015c-9994-d742" collective="false" hidden="false" import="true" targetId="0fb1-728b-64a6-603d" type="selectionEntry"/>
+              </entryLinks>
+              <selectionEntries>
+                <selectionEntry name="Boltgun" id="c8ce-f61d-c521-a0ab" hidden="false" import="true" page="" type="upgrade">
+                  <constraints>
+                    <constraint id="4d7f-e8a3-88ec-8cca" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="758e-6ff5-b0dd-de8c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Boltgun" id="76bd-1b73-586e-432b" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Heavy Weapons" id="8068-2315-dc45-0bc8" collective="false" hidden="false" import="true">
+              <constraints>
+                <constraint id="0dd1-549e-a340-51be" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Chemical Flamer" id="07a3-ffa8-d108-e89f" collective="false" hidden="false" import="true" targetId="d765-dac7-215c-02e5" type="selectionEntry">
+                  <modifiers>
+                    <modifier field="points" type="set" value="5"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <selectionEntries>
+                <selectionEntry name="Plasma Gun" id="887d-7e2c-f85f-5b98" collective="false" hidden="false" import="true" page="0" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Plasma Gun" id="4ecc-dfba-ba4f-8f6f" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry name="Meltagun" id="7fdb-6cf9-86ad-bd22" collective="false" hidden="false" import="true" page="0" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Meltagun" id="a670-7cd9-7bea-a76a" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry name="Flamer" id="bc3a-99d6-a6e6-099b" collective="false" hidden="false" import="true" page="0" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Flamer" id="a906-b7d5-b3fb-8579" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry name="Heavy bolter" id="a466-6d84-60a4-bdef" collective="false" hidden="false" import="true" page="0" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Bolter" id="0458-fc38-7c30-d130" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry name="Autocannon" id="3329-8bae-dad2-99ff" collective="false" hidden="false" import="true" page="0" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Autocannon" id="a806-01c4-16f8-1f76" hidden="false" targetId="fa99-0671-b31a-22d7" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry name="Lascannon" id="12c8-0a0e-61b5-a598" collective="false" hidden="false" import="true" page="0" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Lascannon" id="f331-59d3-4381-2332" hidden="false" targetId="f14a-07e5-5465-69cf" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry name="Missile launcher (with frag and krak)" id="8413-16f7-f17f-63a4" collective="false" hidden="false" import="true" page="0" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Frag Missiles" id="4da6-e8df-9059-e2b4" hidden="false" targetId="603d-3e82-38f6-c5c3" type="profile"/>
+                    <infoLink name="Krak Missiles" id="1ebb-2e0d-90c4-6149" hidden="false" targetId="8161-3b0e-8048-0e83" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Chosen with Special Weapons" id="37dc-2b5e-3a54-7764" hidden="false">
+              <constraints>
+                <constraint id="140c-9cc4-718a-7516" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry name="Chosen with Ranged Weapon and CCW" id="fdd0-0f2c-cec2-5a7e" collapsible="true" hidden="false" import="true" type="model">
+                  <costs>
+                    <cost name="pts" typeId="points" value="18"/>
+                  </costs>
+                  <entryLinks>
+                    <entryLink name="Bolt Pistol" id="91c6-ebc0-d92d-43e9" collective="false" hidden="false" import="true" sortIndex="1" targetId="0fb1-728b-64a6-603d" type="selectionEntry"/>
+                    <entryLink name="Close Combat Weapon" id="6cc4-1b4f-a5db-95f0" collective="false" hidden="false" import="true" sortIndex="2" targetId="73ec-1ed3-aa0d-c08c" type="selectionEntry"/>
+                  </entryLinks>
+                  <profiles>
+                    <profile name="Chosen" id="7bb0-3426-6405-a514" hidden="false" page="0" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+                      <characteristics>
+                        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+                        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+                        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+                        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
+                        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+                        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+                        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+                        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+                        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
+                        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                      </characteristics>
+                      <modifiers>
+                        <modifier field="3f9ed75c-36cd-4169-9cef-48391bb55cfd" type="increment" value="1">
+                          <conditions>
+                            <condition childId="2fa5-1c0d-0825-0f8a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="d553-752e-86d1-19fd" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                        <modifier field="a558b3ef-04d0-440e-a312-bac3255bf592" type="increment" value="1">
+                          <conditions>
+                            <condition childId="b2b4-d72d-c936-8086" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="d553-752e-86d1-19fd" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                        <modifier field="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" type="increment" value="1">
+                          <conditions>
+                            <condition childId="2fc8-462c-b6cd-a4cc" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="d553-752e-86d1-19fd" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                        <modifier field="a558b3ef-04d0-440e-a312-bac3255bf592" type="decrement" value="1">
+                          <conditions>
+                            <condition childId="4635-d223-be9f-4960" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                  </profiles>
+                  <selectionEntries>
+                    <selectionEntry name="Boltgun" id="13b0-4319-16f8-24b2" hidden="false" import="true" page="" sortIndex="3" type="upgrade">
+                      <constraints>
+                        <constraint id="6535-acb8-08ed-2f0b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="db75-22aa-6a7a-c760" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Combi-bolter" id="7e09-c0b7-66aa-3c00" hidden="false" import="true" sortIndex="4" type="upgrade">
+                      <constraints>
+                        <constraint id="4c7d-2077-1bdf-aa73" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="3"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Combi-Bolter" id="18a3-f62d-f761-1895" hidden="false" targetId="40d66948-d966-cfee-bbec-f78da952dd38" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Flamer" id="296e-3622-c026-65e5" hidden="false" import="true" sortIndex="5" type="upgrade">
+                      <constraints>
+                        <constraint id="723d-ca98-cd30-a8da" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Flamer" id="7a7e-85f5-9cff-fce2" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Combi-flamer, -melta or -plasma" id="c377-1f54-ef9d-7cb3" hidden="false" import="true" sortIndex="6" type="upgrade">
+                      <constraints>
+                        <constraint id="9c50-7b22-4a4a-dd6f" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Combi-Flamer" id="9c60-e135-f316-ccd6" hidden="false" targetId="122f-02f5-9d74-2af9" type="profile"/>
+                        <infoLink name="Combi-Plasma" id="4720-e980-802b-714c" hidden="false" targetId="98b1-768b-1948-d6db" type="profile"/>
+                        <infoLink name="Combi-Melta" id="5feb-8c46-447b-b18d" hidden="false" targetId="1e05-65fd-ab51-c570" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Meltagun" id="8d0d-7d0e-bd9a-818a" hidden="false" import="true" page="Meltagun" type="upgrade">
+                      <constraints>
+                        <constraint id="3ba2-472e-167c-c0c5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Meltagun" id="e218-54f5-3abd-8308" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Plasma Gun" id="d036-ac8b-a2e8-2aba" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="292d-37cb-b53c-f8bf" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Gun" id="6236-e769-e351-95e5" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+                <selectionEntry name="Chosen with Pistol and CCW" id="ae12-b97e-5e0d-78fb" collapsible="true" hidden="false" import="true" type="model">
+                  <costs>
+                    <cost name="pts" typeId="points" value="18"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Chosen" id="f49e-6380-b9af-555f" hidden="false" page="0" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+                      <characteristics>
+                        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+                        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+                        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+                        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
+                        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+                        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+                        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+                        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+                        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
+                        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                      </characteristics>
+                      <modifiers>
+                        <modifier field="3f9ed75c-36cd-4169-9cef-48391bb55cfd" type="increment" value="1">
+                          <conditions>
+                            <condition childId="2fa5-1c0d-0825-0f8a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="d553-752e-86d1-19fd" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                        <modifier field="a558b3ef-04d0-440e-a312-bac3255bf592" type="increment" value="1">
+                          <conditions>
+                            <condition childId="b2b4-d72d-c936-8086" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="d553-752e-86d1-19fd" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                        <modifier field="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" type="increment" value="1">
+                          <conditions>
+                            <condition childId="2fc8-462c-b6cd-a4cc" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="d553-752e-86d1-19fd" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                        <modifier field="a558b3ef-04d0-440e-a312-bac3255bf592" type="decrement" value="1">
+                          <conditions>
+                            <condition childId="4635-d223-be9f-4960" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                  </profiles>
+                  <selectionEntries>
+                    <selectionEntry name="Plasma Pistol" id="1faf-3e90-a491-09d3" hidden="false" import="true" type="upgrade">
+                      <costs>
+                        <cost name="pts" typeId="points" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="2485-b78e-b1f5-16cc" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Bolt Pistol" id="5eca-e9f1-a63e-8435" hidden="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink name="Bolt Pistol" id="e13f-e011-72a7-acc5" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+                <selectionEntry name="Chosen with Melee Weapon and Boltgun" id="0b4a-a90e-16d7-2f41" collapsible="true" hidden="false" import="true" type="model">
+                  <costs>
+                    <cost name="pts" typeId="points" value="18"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Chosen" id="e845-3ea1-a2e3-5ebd" hidden="false" page="0" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+                      <characteristics>
+                        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+                        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+                        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+                        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
+                        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+                        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+                        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+                        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+                        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
+                        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                      </characteristics>
+                      <modifiers>
+                        <modifier field="3f9ed75c-36cd-4169-9cef-48391bb55cfd" type="increment" value="1">
+                          <conditions>
+                            <condition childId="2fa5-1c0d-0825-0f8a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="d553-752e-86d1-19fd" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                        <modifier field="a558b3ef-04d0-440e-a312-bac3255bf592" type="increment" value="1">
+                          <conditions>
+                            <condition childId="b2b4-d72d-c936-8086" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="d553-752e-86d1-19fd" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                        <modifier field="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" type="increment" value="1">
+                          <conditions>
+                            <condition childId="2fc8-462c-b6cd-a4cc" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="d553-752e-86d1-19fd" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                        <modifier field="a558b3ef-04d0-440e-a312-bac3255bf592" type="decrement" value="1">
+                          <conditions>
+                            <condition childId="4635-d223-be9f-4960" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Chosen with Heavy Gun and CCW" id="32a4-fa79-ba4e-f0c2" collapsible="true" hidden="false" import="true" type="model">
+                  <costs>
+                    <cost name="pts" typeId="points" value="18"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Chosen" id="b190-d81c-63ac-de98" hidden="false" page="0" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+                      <characteristics>
+                        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+                        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+                        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+                        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
+                        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+                        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+                        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+                        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+                        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
+                        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+                      </characteristics>
+                      <modifiers>
+                        <modifier field="3f9ed75c-36cd-4169-9cef-48391bb55cfd" type="increment" value="1">
+                          <conditions>
+                            <condition childId="2fa5-1c0d-0825-0f8a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="d553-752e-86d1-19fd" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                        <modifier field="a558b3ef-04d0-440e-a312-bac3255bf592" type="increment" value="1">
+                          <conditions>
+                            <condition childId="b2b4-d72d-c936-8086" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="d553-752e-86d1-19fd" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                        <modifier field="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" type="increment" value="1">
+                          <conditions>
+                            <condition childId="2fc8-462c-b6cd-a4cc" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="d553-752e-86d1-19fd" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                        <modifier field="a558b3ef-04d0-440e-a312-bac3255bf592" type="decrement" value="1">
+                          <conditions>
+                            <condition childId="4635-d223-be9f-4960" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transports" id="e8f4-132b-2ef5-1867" hidden="false">
+          <entryLinks>
+            <entryLink name="Chaos Rhino" id="4857-b89d-829a-aa13" collective="false" hidden="false" import="true" targetId="92082917-801e-6a7c-2d3e-c14721c244bc" type="selectionEntry">
+              <constraints>
+                <constraint id="5f4f-dbbb-60d9-b7b5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="[FW] Chaos Dreadclaw Drop Pod" id="fc1c-035e-1f9e-7a5d" collective="false" hidden="false" import="true" targetId="259a-3ce5-8ebb-f7f7" type="selectionEntry">
+              <constraints>
+                <constraint id="bc64-9d23-0e7d-a34a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
