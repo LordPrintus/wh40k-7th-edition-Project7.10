@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Chaos Space Marines: Codex (2012)" id="5af86795-95c1-a1eb-c333-17137242b62f" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2032" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Chaos Space Marines: Codex (2012)" id="5af86795-95c1-a1eb-c333-17137242b62f" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2033" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Core" id="bf93-7277-bf48-16f7" hidden="false"/>
     <categoryEntry name="Command" id="9050-d437-3301-7e42" hidden="false"/>
@@ -14282,62 +14282,62 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                       </modifiers>
                     </profile>
                   </profiles>
-                  <selectionEntries>
-                    <selectionEntry name="Ranged Weapon" id="279d-66fa-f637-b3ce" hidden="false" import="true" type="upgrade">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Ranged Weapon" id="ca12-b330-e31f-3866" hidden="false">
                       <constraints>
-                        <constraint id="0c17-27c9-adb6-9e51" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="01d9-8203-3710-0ba5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <selectionEntries>
-                        <selectionEntry name="Boltgun" id="13b0-4319-16f8-24b2" hidden="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink name="Boltgun" id="db75-22aa-6a7a-c760" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-                          </infoLinks>
-                        </selectionEntry>
-                        <selectionEntry name="Combi-bolter" id="7e09-c0b7-66aa-3c00" hidden="false" import="true" type="upgrade">
-                          <costs>
-                            <cost name="pts" typeId="points" value="3"/>
-                          </costs>
-                          <infoLinks>
-                            <infoLink name="Combi-Bolter" id="18a3-f62d-f761-1895" hidden="false" targetId="40d66948-d966-cfee-bbec-f78da952dd38" type="profile"/>
-                          </infoLinks>
-                        </selectionEntry>
-                        <selectionEntry name="Flamer" id="296e-3622-c026-65e5" hidden="false" import="true" type="upgrade">
-                          <costs>
-                            <cost name="pts" typeId="points" value="5"/>
-                          </costs>
-                          <infoLinks>
-                            <infoLink name="Flamer" id="7a7e-85f5-9cff-fce2" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
-                          </infoLinks>
-                        </selectionEntry>
-                        <selectionEntry name="Combi-flamer, -melta or -plasma" id="c377-1f54-ef9d-7cb3" hidden="false" import="true" type="upgrade">
-                          <costs>
-                            <cost name="pts" typeId="points" value="10"/>
-                          </costs>
-                          <infoLinks>
-                            <infoLink name="Combi-Flamer" id="9c60-e135-f316-ccd6" hidden="false" targetId="122f-02f5-9d74-2af9" type="profile"/>
-                            <infoLink name="Combi-Plasma" id="4720-e980-802b-714c" hidden="false" targetId="98b1-768b-1948-d6db" type="profile"/>
-                            <infoLink name="Combi-Melta" id="5feb-8c46-447b-b18d" hidden="false" targetId="1e05-65fd-ab51-c570" type="profile"/>
-                          </infoLinks>
-                        </selectionEntry>
-                        <selectionEntry name="Meltagun" id="8d0d-7d0e-bd9a-818a" hidden="false" import="true" page="Meltagun" type="upgrade">
-                          <costs>
-                            <cost name="pts" typeId="points" value="10"/>
-                          </costs>
-                          <infoLinks>
-                            <infoLink name="Meltagun" id="e218-54f5-3abd-8308" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
-                          </infoLinks>
-                        </selectionEntry>
-                        <selectionEntry name="Plasma Gun" id="d036-ac8b-a2e8-2aba" hidden="false" import="true" type="upgrade">
+                        <selectionEntry name="Plasma Gun" id="c1c4-f723-a678-8a5f" hidden="false" import="true" type="upgrade">
                           <costs>
                             <cost name="pts" typeId="points" value="15"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Plasma Gun" id="6236-e769-e351-95e5" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
+                            <infoLink name="Plasma Gun" id="7883-a73e-fc02-902a" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry name="Meltagun" id="cc9a-ea4c-666c-ae19" hidden="false" import="true" page="Meltagun" type="upgrade">
+                          <costs>
+                            <cost name="pts" typeId="points" value="10"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Meltagun" id="bfed-a671-524d-f668" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry name="Flamer" id="8766-6c4f-bf99-a3f2" hidden="false" import="true" type="upgrade">
+                          <costs>
+                            <cost name="pts" typeId="points" value="5"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Flamer" id="6012-a562-1521-18a6" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry name="Combi-flamer, -melta or -plasma" id="ab9e-4b20-50ed-51e0" hidden="false" import="true" type="upgrade">
+                          <costs>
+                            <cost name="pts" typeId="points" value="10"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Combi-Flamer" id="6e1a-705a-64e1-c43c" hidden="false" targetId="122f-02f5-9d74-2af9" type="profile"/>
+                            <infoLink name="Combi-Plasma" id="5fe9-c991-dfc9-eb29" hidden="false" targetId="98b1-768b-1948-d6db" type="profile"/>
+                            <infoLink name="Combi-Melta" id="46b1-aa3e-2430-6010" hidden="false" targetId="1e05-65fd-ab51-c570" type="profile"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry name="Combi-bolter" id="9837-4815-c210-7ed7" hidden="false" import="true" type="upgrade">
+                          <costs>
+                            <cost name="pts" typeId="points" value="3"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Combi-Bolter" id="a8a9-7b8b-d065-a6c7" hidden="false" targetId="40d66948-d966-cfee-bbec-f78da952dd38" type="profile"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry name="Boltgun" id="4487-fa34-ad97-2607" hidden="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink name="Boltgun" id="8cf7-06f3-5a81-aad1" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
                           </infoLinks>
                         </selectionEntry>
                       </selectionEntries>
-                    </selectionEntry>
-                  </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntry>
                 <selectionEntry name="Chosen with Pistol and CCW" id="ae12-b97e-5e0d-78fb" collapsible="true" hidden="false" import="true" type="model">
                   <costs>
