@@ -1099,7 +1099,7 @@
     <entryLink name="Big Mek Dakkarig (v11)" id="e66a-bb91-32e8-9846" hidden="false" import="true" targetId="e8a5-1c07-50bb-91e9" type="selectionEntry"/>
   </entryLinks>
   <forceEntries>
-    <forceEntry name="Ork Great Waaagh! Detachment (Waaagh Ghaz)" id="c8a1-332b-08b0-133b" hidden="false" publicationId="5e29cf46--pubN66370">
+    <forceEntry name="Ork Great Waaagh! Detachment (Waaagh Ghazkul)" id="c8a1-332b-08b0-133b" hidden="false" publicationId="5e29cf46--pubN66370">
       <categoryLinks>
         <categoryLink name="HQ" id="c8a1-332b-08b0-133b-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7">
           <constraints>
@@ -1124,9 +1124,9 @@
             <constraint id="14c2-1b5b-2042-649c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="3"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Fortification" id="c8a1-332b-08b0-133b-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a">
+        <categoryLink name="Heavy Support" id="c8a1-332b-08b0-133b-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" primary="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6">
           <constraints>
-            <constraint id="1241-3fa9-0be6-e9b8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+            <constraint id="8ed2-f95b-6993-b567" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="3"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Lords of War" id="c8a1-332b-08b0-133b-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" primary="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554">
@@ -1134,9 +1134,9 @@
             <constraint id="5c33-b9e8-79e1-2c81" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Heavy Support" id="c8a1-332b-08b0-133b-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" primary="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6">
+        <categoryLink name="Fortification" id="c8a1-332b-08b0-133b-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a">
           <constraints>
-            <constraint id="8ed2-f95b-6993-b567" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="3"/>
+            <constraint id="1241-3fa9-0be6-e9b8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Primary Detachment" id="c8a1-332b-08b0-133b-7fc5b655-812e-45ed-98ff-db8847d356da" hidden="false" primary="false" targetId="7fc5b655-812e-45ed-98ff-db8847d356da">
@@ -1149,7 +1149,14 @@
       <infoLinks>
         <infoLink name="Biggest an&apos; da Best" id="be3f-95f8-079a-d02b" hidden="false" targetId="774bed60-ea1d-6c46-ce05-ac74ec91c85b" type="rule"/>
         <infoLink name="Da Boss iz Watchin&apos;" id="893c-1654-44fe-f60a" hidden="false" targetId="18e063ec-4006-f1b1-4c5f-e317c6baf7ed" type="rule"/>
+        <infoLink name="Da Right Boss for da Plan" id="5a4a-5d88-d74a-56ef" hidden="false" targetId="fadd85f7-3d4c-c9df-4b87-ca45c3c3ff94" type="rule"/>
+        <infoLink name="Tellyporta Strike" id="9b43-6036-72e2-01fb" hidden="false" targetId="0136f8ef-98fc-fa6a-f309-bec8a2a0b5e6" type="rule"/>
       </infoLinks>
+      <rules>
+        <rule name="Orkimedes’ Kustom Gubbinz" id="0149-43b2-34a8-19d5" hidden="false">
+          <description>Any units from a Detachment or Formation presented in this book that can select Gifts of Gork and Mork can select an item from Orkimedes’ Kustom Gubbinz, presented below, at the points costs shown, in addition to the Gifts of Gork and Mork from Codex: Orks.</description>
+        </rule>
+      </rules>
     </forceEntry>
     <forceEntry name="Ork Horde Detachment (Codex Orks)" id="95b0-006e-ad0f-8dc1" hidden="false" publicationId="5e29cf46--pubN66707">
       <categoryLinks>
@@ -10558,7 +10565,9 @@ As such &amp; with the consent of your opponents, they may add colour to friendl
     <rule name="Big Mek Mogrok" id="ffebd546-c89f-2ed5-755b-829ee525649d" hidden="false" publicationId="5e29cf46--pubN67475"/>
     <rule name="Big Pulsa Rokkit" id="a7fe93db-6029-a4a4-b85c-f475b7a6049a" hidden="false" page="0" publicationId="5e29cf46--pubN180448"/>
     <rule name="Bigbomm" id="c0019570-79d1-032a-21b2-a32e91b3882b" hidden="false" page="48" publicationId="5e29cf46--pubN66707"/>
-    <rule name="Biggest an&apos; da Best" id="774bed60-ea1d-6c46-ce05-ac74ec91c85b" hidden="true" page="52" publicationId="5e29cf46--pubN107551"/>
+    <rule name="Biggest an&apos; da Best" id="774bed60-ea1d-6c46-ce05-ac74ec91c85b" hidden="true" page="52" publicationId="5e29cf46--pubN107551">
+      <description>This special rule only applies to a Warlord chosen as part of a Detachment or Formation presented in this supplement. If your Warlord has this special rule, he must always issue and accept a challenge whenever possible. If you have more than one model in a combat with a special rule to this effect, you can choose which model issues or accepts the challenge. If a Warlord with this special rule kills an enemy character in a challenge, he can re-roll all failed To Wound rolls in close combat for the rest of the game.</description>
+    </rule>
     <rule name="Biggest an&apos; da Best (formation)" id="afb0365f-84ca-20de-65e9-edc890f35661" hidden="false" page="52" publicationId="5e29cf46--pubN107551"/>
     <rule name="Bike of the Aporkalypse" id="2c7a7bdf-943f-66bd-722e-23be54447438" hidden="false" page="60" publicationId="5e29cf46--pubN66707"/>
     <rule name="Blazing Inferno" id="028e1148-99c0-afa0-4ed2-104c6aa982ad" hidden="false" page="0" publicationId="5e29cf46--pubN68654"/>
@@ -10591,12 +10600,18 @@ As such &amp; with the consent of your opponents, they may add colour to friendl
     <rule name="Crushing Weight" id="e60281e5-ed41-0d9d-ea4f-beb543420eaf" hidden="false" page="6" publicationId="5e29cf46--pubN76327"/>
     <rule name="Cut &amp; Slam" id="136523e9-ecdc-77b4-75d4-07d4d69a7e98" hidden="false" page="120" publicationId="5e29cf46--pubN76327"/>
     <rule name="Da Beast" id="f6e30ca3-f34d-ae7f-dadd-dad329cb2a55" hidden="false" page="0" publicationId="5e29cf46--pubN121412"/>
-    <rule name="Da Big Boss" id="5880-54d2-4bce-3f17" hidden="true" page="0" publicationId="5e29cf46--pubN107551"/>
-    <rule name="Da Boss iz Watchin&apos;" id="18e063ec-4006-f1b1-4c5f-e317c6baf7ed" hidden="true" page="52" publicationId="5e29cf46--pubN107551"/>
+    <rule name="Da Big Boss" id="5880-54d2-4bce-3f17" hidden="true" page="0" publicationId="5e29cf46--pubN107551">
+      <description>If this Detachment is chosen as your Primary Detachment, you can choose to re-roll the result on the Warlord Traits table.</description>
+    </rule>
+    <rule name="Da Boss iz Watchin&apos;" id="18e063ec-4006-f1b1-4c5f-e317c6baf7ed" hidden="true" page="52" publicationId="5e29cf46--pubN107551">
+      <description>Units with the Mob Rule special rule that include at least one model from this Detachment or Formation gain a +2 modifier to any rolls on the Mob Rule table. However, should any of these units suffer hits from the Breaking Heads or Squabble results on the Mob Rule table, they will suffer D3+3 Strength 4 AP- hits instead of D6 Strength 4 AP- hits.</description>
+    </rule>
     <rule name="Da Boss iz Watchin&apos; (formation)" id="e26b2446-8e7f-8037-3b9c-4db2424312be" hidden="false" page="52" publicationId="5e29cf46--pubN107551"/>
     <rule name="Da Boss&apos; Nobz" id="d2877dac-e9e4-91b1-20f0-8b9db5a2b6d1" hidden="false" page="0" publicationId="5e29cf46--pubN66707"/>
     <rule name="Da Dredheadz" id="068d770f-a3c8-27e1-594c-fb1dbdaa6660" hidden="false" page="0" publicationId="5e29cf46--pubN121412"/>
-    <rule name="Da Great Waaagh!" id="ab4a-deb0-d62c-7216" hidden="true" page="0" publicationId="5e29cf46--pubN107551"/>
+    <rule name="Da Great Waaagh!" id="ab4a-deb0-d62c-7216" hidden="true" page="0" publicationId="5e29cf46--pubN107551">
+      <description>If this Detachment contains your Warlord and he has the Waaagh! special rule, he can call a Waaagh! each and every turn, including the first turn.</description>
+    </rule>
     <rule name="Da Greeen Horde" id="32f3-0531-5fe4-de58" hidden="true" page="0" publicationId="5e29cf46--pubN107551"/>
     <rule name="Da Latest Gubbins" id="0d29be7a-ae30-68a8-510a-99d86ff50dee" hidden="false" page="0" publicationId="5e29cf46--pubN68654"/>
     <rule name="Da Latest Gubbins: Dead Shooty" id="980b06c5-0892-8c5f-c0fb-c63d39c81075" hidden="false" page="0" publicationId="5e29cf46--pubN68654"/>
@@ -11014,6 +11029,9 @@ An army that includes a Painboss as its Warlord may include a single unit of Cyb
 3-4 - Fizzzz!: The Lifta Wagon suffers a Glancing hit.
 5 - Flyin&apos;!: Resolve the effects of a Lifta-droppa on the Lifta Wagon itself.
 6 - Out&apos;a control!: The opposing player picks a new target for the Lifta=droppa&apos;s attack within range and Line of Sigh, and the attack is resolved again.  Further rolls of 1 are a failed shot.</description>
+    </rule>
+    <rule name="Da Green Horde" id="574b-3ade-7e60-d3d7" hidden="false">
+      <description>Every unit with 10 or more models in this Detachment gains the Hammer of Wrath special rule in any Assault phase in which it successfully charges an enemy unit. Note that it does not matter if the unit’s size is reduced below 10 models during its charge (as a result of Overwatch, Dangerous Terrain tests, etc.) so long as it can still successfully make the charge.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
