@@ -1374,33 +1374,6 @@
         </modifier>
       </modifiers>
     </infoLink>
-    <infoLink name="Da Big Boss" id="8fff-e492-202c-f4bf" hidden="false" targetId="5880-54d2-4bce-3f17" type="rule">
-      <modifiers>
-        <modifier field="hidden" type="set" value="false">
-          <conditions>
-            <condition childId="c8a1-332b-08b0-133b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="instanceOf" value="0"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </infoLink>
-    <infoLink name="Da Great Waaagh!" id="03b9-7a06-6425-3178" hidden="false" targetId="ab4a-deb0-d62c-7216" type="rule">
-      <modifiers>
-        <modifier field="hidden" type="set" value="false">
-          <conditions>
-            <condition childId="c8a1-332b-08b0-133b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="instanceOf" value="0"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </infoLink>
-    <infoLink name="Da Greeen Horde" id="d852-4fee-1ea8-2457" hidden="false" targetId="32f3-0531-5fe4-de58" type="rule">
-      <modifiers>
-        <modifier field="hidden" type="set" value="false">
-          <conditions>
-            <condition childId="c8a1-332b-08b0-133b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="instanceOf" value="0"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </infoLink>
   </infoLinks>
   <publications>
     <publication name="Waaagh! Ghazgul" id="5e29cf46--pubN66370"/>
@@ -10600,19 +10573,12 @@ As such &amp; with the consent of your opponents, they may add colour to friendl
     <rule name="Crushing Weight" id="e60281e5-ed41-0d9d-ea4f-beb543420eaf" hidden="false" page="6" publicationId="5e29cf46--pubN76327"/>
     <rule name="Cut &amp; Slam" id="136523e9-ecdc-77b4-75d4-07d4d69a7e98" hidden="false" page="120" publicationId="5e29cf46--pubN76327"/>
     <rule name="Da Beast" id="f6e30ca3-f34d-ae7f-dadd-dad329cb2a55" hidden="false" page="0" publicationId="5e29cf46--pubN121412"/>
-    <rule name="Da Big Boss" id="5880-54d2-4bce-3f17" hidden="true" page="0" publicationId="5e29cf46--pubN107551">
-      <description>If this Detachment is chosen as your Primary Detachment, you can choose to re-roll the result on the Warlord Traits table.</description>
-    </rule>
     <rule name="Da Boss iz Watchin&apos;" id="18e063ec-4006-f1b1-4c5f-e317c6baf7ed" hidden="true" page="52" publicationId="5e29cf46--pubN107551">
       <description>Units with the Mob Rule special rule that include at least one model from this Detachment or Formation gain a +2 modifier to any rolls on the Mob Rule table. However, should any of these units suffer hits from the Breaking Heads or Squabble results on the Mob Rule table, they will suffer D3+3 Strength 4 AP- hits instead of D6 Strength 4 AP- hits.</description>
     </rule>
     <rule name="Da Boss iz Watchin&apos; (formation)" id="e26b2446-8e7f-8037-3b9c-4db2424312be" hidden="false" page="52" publicationId="5e29cf46--pubN107551"/>
     <rule name="Da Boss&apos; Nobz" id="d2877dac-e9e4-91b1-20f0-8b9db5a2b6d1" hidden="false" page="0" publicationId="5e29cf46--pubN66707"/>
     <rule name="Da Dredheadz" id="068d770f-a3c8-27e1-594c-fb1dbdaa6660" hidden="false" page="0" publicationId="5e29cf46--pubN121412"/>
-    <rule name="Da Great Waaagh!" id="ab4a-deb0-d62c-7216" hidden="true" page="0" publicationId="5e29cf46--pubN107551">
-      <description>If this Detachment contains your Warlord and he has the Waaagh! special rule, he can call a Waaagh! each and every turn, including the first turn.</description>
-    </rule>
-    <rule name="Da Greeen Horde" id="32f3-0531-5fe4-de58" hidden="true" page="0" publicationId="5e29cf46--pubN107551"/>
     <rule name="Da Latest Gubbins" id="0d29be7a-ae30-68a8-510a-99d86ff50dee" hidden="false" page="0" publicationId="5e29cf46--pubN68654"/>
     <rule name="Da Latest Gubbins: Dead Shooty" id="980b06c5-0892-8c5f-c0fb-c63d39c81075" hidden="false" page="0" publicationId="5e29cf46--pubN68654"/>
     <rule name="Da Latest Gubbins: Extra Stompy" id="e009e58d-79c3-6d05-4f47-b951b1f3eeb5" hidden="false" page="0" publicationId="5e29cf46--pubN68654"/>
@@ -11029,9 +10995,6 @@ An army that includes a Painboss as its Warlord may include a single unit of Cyb
 3-4 - Fizzzz!: The Lifta Wagon suffers a Glancing hit.
 5 - Flyin&apos;!: Resolve the effects of a Lifta-droppa on the Lifta Wagon itself.
 6 - Out&apos;a control!: The opposing player picks a new target for the Lifta=droppa&apos;s attack within range and Line of Sigh, and the attack is resolved again.  Further rolls of 1 are a failed shot.</description>
-    </rule>
-    <rule name="Da Green Horde" id="574b-3ade-7e60-d3d7" hidden="false">
-      <description>Every unit with 10 or more models in this Detachment gains the Hammer of Wrath special rule in any Assault phase in which it successfully charges an enemy unit. Note that it does not matter if the unit’s size is reduced below 10 models during its charge (as a result of Overwatch, Dangerous Terrain tests, etc.) so long as it can still successfully make the charge.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
