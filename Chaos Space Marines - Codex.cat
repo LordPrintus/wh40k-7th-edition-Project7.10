@@ -8600,7 +8600,7 @@ When making armour penetration/To wound rolls against the chosen model, all roll
           <modifiers>
             <modifier field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" type="set" value="+2 (5+)">
               <conditions>
-                <condition childId="1928-7e7c-ce4d-3bef" childName="Mark of Nurgle" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="6295-53ca-63cb-78fb" childName="Nurgle" field="selections" scope="0034-aa8c-f22b-0ad0" shared="true" type="equalTo" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
