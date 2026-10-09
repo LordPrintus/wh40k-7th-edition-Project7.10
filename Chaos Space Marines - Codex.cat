@@ -14343,6 +14343,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                   <costs>
                     <cost name="pts" typeId="points" value="18"/>
                   </costs>
+                  <entryLinks>
+                    <entryLink name="Close Combat Weapon" id="6cc6-6e23-3f26-1a93" collective="false" hidden="false" import="true" targetId="73ec-1ed3-aa0d-c08c" type="selectionEntry"/>
+                  </entryLinks>
                   <profiles>
                     <profile name="Chosen" id="f49e-6380-b9af-555f" hidden="false" page="0" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
                       <characteristics>
@@ -14382,20 +14385,38 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     </profile>
                   </profiles>
                   <selectionEntries>
-                    <selectionEntry name="Plasma Pistol" id="1faf-3e90-a491-09d3" hidden="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="points" value="15"/>
-                      </costs>
+                    <selectionEntry name="Boltgun" id="40dd-323f-7a2c-2880" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="6773-d333-cae4-a0a2" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="3dcd-cfea-2a6f-f010" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
                       <infoLinks>
-                        <infoLink name="Plasma Pistol" id="2485-b78e-b1f5-16cc" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry name="Bolt Pistol" id="5eca-e9f1-a63e-8435" hidden="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink name="Bolt Pistol" id="e13f-e011-72a7-acc5" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+                        <infoLink name="Boltgun" id="9c5c-afe1-c4dd-b76a" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Pistol" id="3b9f-f7b3-086c-5385" hidden="false">
+                      <constraints>
+                        <constraint id="7bac-ba34-8f0b-dcf7" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry name="Plasma Pistol" id="1faf-3e90-a491-09d3" hidden="false" import="true" type="upgrade">
+                          <costs>
+                            <cost name="pts" typeId="points" value="15"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Plasma Pistol" id="2485-b78e-b1f5-16cc" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry name="Bolt Pistol" id="5eca-e9f1-a63e-8435" hidden="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink name="Bolt Pistol" id="e13f-e011-72a7-acc5" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+                          </infoLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntry>
                 <selectionEntry name="Chosen with Melee Weapon and Boltgun" id="0b4a-a90e-16d7-2f41" collapsible="true" hidden="false" import="true" type="model">
                   <costs>
@@ -18641,6 +18662,11 @@ Enemy units that are within 12&quot; of at least two units from this formation s
         <modifier field="hidden" type="set" value="true">
           <conditions>
             <condition childId="f1c4-09e2-1971-7362" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0"/>
+          </conditions>
+        </modifier>
+        <modifier field="category" type="remove" value="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2">
+          <conditions>
+            <condition childId="4e4a-5727-13e8-cc49" childName="Iron Warriors" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
           </conditions>
         </modifier>
       </modifiers>
