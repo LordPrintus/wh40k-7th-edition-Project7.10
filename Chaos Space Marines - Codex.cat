@@ -8597,13 +8597,6 @@ When making armour penetration/To wound rolls against the chosen model, all roll
             <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">5</characteristic>
             <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">-</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" type="set" value="+2 (5+)">
-              <conditions>
-                <condition childId="1928-7e7c-ce4d-3bef" childName="Mark of Nurgle" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </profile>
         <profile name="Large Fangs and Claws" id="01f2-8c07-329f-b673" hidden="false" page="102" publicationId="5af86795--pubN120162" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
@@ -8625,6 +8618,13 @@ When making armour penetration/To wound rolls against the chosen model, all roll
             <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
+          <modifiers>
+            <modifier field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" type="set" value="+2 (5+)">
+              <conditions>
+                <condition childId="1928-7e7c-ce4d-3bef" childName="Mark of Nurgle" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <selectionEntries>
             <selectionEntry name="Khorne" id="eb32-8e95-3af8-83ec" collective="false" hidden="false" import="true" type="upgrade">
               <costs>
