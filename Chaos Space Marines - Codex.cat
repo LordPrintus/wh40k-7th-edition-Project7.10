@@ -14286,6 +14286,8 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <selectionEntry name="Boltgun" id="13b0-4319-16f8-24b2" hidden="false" import="true" page="" sortIndex="3" type="upgrade">
                       <constraints>
                         <constraint id="6535-acb8-08ed-2f0b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="69a2-6fb6-be6f-213f-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="69a2-6fb6-be6f-213f-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <infoLinks>
                         <infoLink name="Boltgun" id="db75-22aa-6a7a-c760" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
@@ -14294,6 +14296,8 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <selectionEntry name="Combi-bolter" id="7e09-c0b7-66aa-3c00" hidden="false" import="true" sortIndex="4" type="upgrade">
                       <constraints>
                         <constraint id="4c7d-2077-1bdf-aa73" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="6821-32d3-13eb-297e-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="6821-32d3-13eb-297e-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
                         <cost name="pts" typeId="points" value="3"/>
@@ -14305,6 +14309,8 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <selectionEntry name="Flamer" id="296e-3622-c026-65e5" hidden="false" import="true" sortIndex="5" type="upgrade">
                       <constraints>
                         <constraint id="723d-ca98-cd30-a8da" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="2ba8-e96a-7a3d-856f-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="2ba8-e96a-7a3d-856f-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
                         <cost name="pts" typeId="points" value="5"/>
@@ -14316,6 +14322,8 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <selectionEntry name="Combi-flamer, -melta or -plasma" id="c377-1f54-ef9d-7cb3" hidden="false" import="true" sortIndex="6" type="upgrade">
                       <constraints>
                         <constraint id="9c50-7b22-4a4a-dd6f" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="2cf0-d5cb-f3f3-6413-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="2cf0-d5cb-f3f3-6413-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
                         <cost name="pts" typeId="points" value="10"/>
@@ -14329,6 +14337,8 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <selectionEntry name="Meltagun" id="8d0d-7d0e-bd9a-818a" hidden="false" import="true" page="Meltagun" type="upgrade">
                       <constraints>
                         <constraint id="3ba2-472e-167c-c0c5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="27fb-5456-065a-ffe8-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="27fb-5456-065a-ffe8-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
                         <cost name="pts" typeId="points" value="10"/>
@@ -14340,6 +14350,8 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <selectionEntry name="Plasma Gun" id="d036-ac8b-a2e8-2aba" hidden="false" import="true" type="upgrade">
                       <constraints>
                         <constraint id="292d-37cb-b53c-f8bf" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="8ac9-b2b7-2058-56ce-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="8ac9-b2b7-2058-56ce-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
                         <cost name="pts" typeId="points" value="15"/>
