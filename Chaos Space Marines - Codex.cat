@@ -14285,8 +14285,8 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                   <selectionEntries>
                     <selectionEntry name="Ranged Weapon" id="279d-66fa-f637-b3ce" hidden="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint id="b928-e018-141f-48e4-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-                        <constraint id="b928-e018-141f-48e4-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                        <constraint id="414b-ce5e-9c7b-9730" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="0c17-27c9-adb6-9e51" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <selectionEntries>
                         <selectionEntry name="Boltgun" id="13b0-4319-16f8-24b2" hidden="false" import="true" page="" type="upgrade">
@@ -14296,6 +14296,13 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                           <infoLinks>
                             <infoLink name="Boltgun" id="db75-22aa-6a7a-c760" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
                           </infoLinks>
+                          <modifiers>
+                            <modifier field="error" type="add" value="0">
+                              <conditions>
+                                <condition childId="any" field="selections" scope="parent" shared="true" type="greaterThan" value="1"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
                         </selectionEntry>
                         <selectionEntry name="Combi-bolter" id="7e09-c0b7-66aa-3c00" hidden="false" import="true" type="upgrade">
                           <constraints>
@@ -14307,6 +14314,13 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                           <infoLinks>
                             <infoLink name="Combi-Bolter" id="18a3-f62d-f761-1895" hidden="false" targetId="40d66948-d966-cfee-bbec-f78da952dd38" type="profile"/>
                           </infoLinks>
+                          <modifiers>
+                            <modifier field="error" type="add" value="0">
+                              <conditions>
+                                <condition childId="any" field="selections" scope="parent" shared="true" type="greaterThan" value="1"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
                         </selectionEntry>
                         <selectionEntry name="Flamer" id="296e-3622-c026-65e5" hidden="false" import="true" type="upgrade">
                           <constraints>
@@ -14318,6 +14332,13 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                           <infoLinks>
                             <infoLink name="Flamer" id="7a7e-85f5-9cff-fce2" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
                           </infoLinks>
+                          <modifiers>
+                            <modifier field="error" type="add" value="0">
+                              <conditions>
+                                <condition childId="any" field="selections" scope="parent" shared="true" type="greaterThan" value="1"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
                         </selectionEntry>
                         <selectionEntry name="Combi-flamer, -melta or -plasma" id="c377-1f54-ef9d-7cb3" hidden="false" import="true" type="upgrade">
                           <constraints>
@@ -14331,6 +14352,13 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                             <infoLink name="Combi-Plasma" id="4720-e980-802b-714c" hidden="false" targetId="98b1-768b-1948-d6db" type="profile"/>
                             <infoLink name="Combi-Melta" id="5feb-8c46-447b-b18d" hidden="false" targetId="1e05-65fd-ab51-c570" type="profile"/>
                           </infoLinks>
+                          <modifiers>
+                            <modifier field="error" type="add" value="0">
+                              <conditions>
+                                <condition childId="any" field="selections" scope="parent" shared="true" type="greaterThan" value="1"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
                         </selectionEntry>
                         <selectionEntry name="Meltagun" id="8d0d-7d0e-bd9a-818a" hidden="false" import="true" page="Meltagun" type="upgrade">
                           <constraints>
@@ -14342,6 +14370,13 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                           <infoLinks>
                             <infoLink name="Meltagun" id="e218-54f5-3abd-8308" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
                           </infoLinks>
+                          <modifiers>
+                            <modifier field="error" type="add" value="0">
+                              <conditions>
+                                <condition childId="any" field="selections" scope="parent" shared="true" type="greaterThan" value="1"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
                         </selectionEntry>
                         <selectionEntry name="Plasma Gun" id="d036-ac8b-a2e8-2aba" hidden="false" import="true" type="upgrade">
                           <constraints>
@@ -14353,6 +14388,13 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                           <infoLinks>
                             <infoLink name="Plasma Gun" id="6236-e769-e351-95e5" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
                           </infoLinks>
+                          <modifiers>
+                            <modifier field="error" type="add" value="0">
+                              <conditions>
+                                <condition childId="any" field="selections" scope="parent" shared="true" type="greaterThan" value="1"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntry>
