@@ -18666,7 +18666,7 @@ Enemy units that are within 12&quot; of at least two units from this formation s
         </modifier>
         <modifier field="category" type="remove" value="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2">
           <conditions>
-            <condition childId="4e4a-5727-13e8-cc49" childName="Iron Warriors" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+            <condition childId="76ea-9f16-a18f-7520" childName="Iron Warriors" field="selections" includeChildSelections="true" scope="force" shared="true" type="equalTo" value="1"/>
           </conditions>
         </modifier>
       </modifiers>
