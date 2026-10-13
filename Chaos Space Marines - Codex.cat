@@ -15922,7 +15922,7 @@ The nominated unit has Fearless and +1 Strength for the entire game.</descriptio
           <modifiers>
             <modifier field="hidden" type="set" value="false">
               <conditionGroups>
-                <conditionGroup type="or">
+                <conditionGroup type="and">
                   <conditions>
                     <condition childId="76ea-9f16-a18f-7520" childName="Iron Warriors" field="selections" includeChildSelections="true" scope="force" shared="true" type="equalTo" value="1"/>
                   </conditions>
