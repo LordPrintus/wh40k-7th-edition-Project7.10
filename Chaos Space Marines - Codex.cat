@@ -15920,7 +15920,7 @@ The nominated unit has Fearless and +1 Strength for the entire game.</descriptio
       <infoLinks>
         <infoLink name="Tank Hunters" id="b614-2cff-e68c-e7fc" hidden="false" targetId="8962-f05d-6e2a-ca6b" type="rule">
           <modifiers>
-            <modifier field="hidden" type="set" value="false">
+            <modifier field="hidden" type="set" value="true">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
