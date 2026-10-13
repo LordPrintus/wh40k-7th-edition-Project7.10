@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Chaos Space Marines: Codex (2012)" id="5af86795-95c1-a1eb-c333-17137242b62f" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2034" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Chaos Space Marines: Codex (2012)" id="5af86795-95c1-a1eb-c333-17137242b62f" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2035" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Core" id="bf93-7277-bf48-16f7" hidden="false"/>
     <categoryEntry name="Command" id="9050-d437-3301-7e42" hidden="false"/>
@@ -11776,7 +11776,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <selectionEntries>
             <selectionEntry name="Rhino Advancer (Lore)" id="38c8-6ba1-65ae-fe88" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="a38e-85de-cd5d-b630" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="0"/>
                 <constraint id="4b9f-c9bb-a360-361d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <costs>
