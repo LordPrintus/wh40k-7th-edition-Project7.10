@@ -15922,9 +15922,9 @@ The nominated unit has Fearless and +1 Strength for the entire game.</descriptio
           <modifiers>
             <modifier field="hidden" type="set" value="false">
               <conditions>
-                <condition childId="76ea-9f16-a18f-7520" childName="Iron Warriors" field="selections" includeChildSelections="false" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                <condition childId="4e4a-5727-13e8-cc49" childName="Iron Warriors" field="selections" includeChildSelections="false" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-                <condition childId="d821-4661-09f9-5519" childName="CSM Iron Warriors Grand Company" field="selections" includeChildSelections="false" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="76ea-9f16-a18f-7520" childName="Iron Warriors" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+                <condition childId="4e4a-5727-13e8-cc49" childName="Iron Warriors" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d821-4661-09f9-5519" childName="CSM Iron Warriors Grand Company" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
