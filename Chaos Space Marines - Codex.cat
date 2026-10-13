@@ -2888,6 +2888,9 @@ Codex: Grey Knights</description>
     <rule name="Iron Within, Iron Without" id="4265-e9f3-eb96-48e4" hidden="false">
       <description>Iron Warriors units with the VotLW special rule have the FNP (6+) special rule.</description>
     </rule>
+    <rule name="Tank Hunters" id="76ac-b74a-ccc8-5e4d" hidden="false">
+      <description>A unit that contains at least one model with this special rule re-rolls failed armour penetration rolls against vehicles (both with shooting and in close combat) and can choose to re-roll glancing hits, in an attempt to instead get a penetrating hit – but the second result must be kept.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry name="[FW] Arkos the Faithless (IA: Vraks)" id="70e4-4d8f-b97f-3aaa" collective="false" hidden="true" import="true" page="153" publicationId="5af86795--pubN75167" type="upgrade">
@@ -15914,13 +15917,17 @@ The nominated unit has Fearless and +1 Strength for the entire game.</descriptio
           </modifiers>
         </entryLink>
       </entryLinks>
-      <modifiers>
-        <modifier field="category" type="remove" value="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6">
-          <conditions>
-            <condition childId="76ea-9f16-a18f-7520" childName="Iron Warriors" field="selections" includeChildSelections="true" scope="force" shared="true" type="equalTo" value="1"/>
-          </conditions>
-        </modifier>
-      </modifiers>
+      <infoLinks>
+        <infoLink name="Tank Hunters" id="b614-2cff-e68c-e7fc" hidden="false" targetId="8962-f05d-6e2a-ca6b" type="rule">
+          <modifiers>
+            <modifier field="hidden" type="set" value="false">
+              <conditions>
+                <condition childId="76ea-9f16-a18f-7520" childName="Iron Warriors" field="selections" includeChildSelections="true" scope="force" shared="true" type="equalTo" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <selectionEntries>
         <selectionEntry name="Aspiring Champion" id="0be1-fcde-7b87-9627" collective="false" hidden="false" import="true" page="0" type="model">
           <constraints>
@@ -19160,16 +19167,6 @@ Enemy units that are within 12&quot; of at least two units from this formation s
         <infoLink name="Daemon" id="6894-f6d4-f11a-ea87" hidden="false" targetId="3eda-669d-bd54-e3c0" type="rule"/>
         <infoLink name="Deep Strike" id="4ae8-1d61-85e4-b1b0" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
         <infoLink name="Slow and Purposeful" id="e8e3-cc54-58ae-93c5" hidden="false" targetId="e6bc-ea23-502f-5042" type="rule"/>
-        <infoLink name="Tank Hunters" id="4cc4-5e1d-6dbb-1de3" hidden="false" targetId="4378-c0f8-107a-4e3e" type="rule">
-          <modifiers>
-            <modifier field="hidden" type="set" value="false">
-              <conditions>
-                <condition childId="4e4a-5727-13e8-cc49" childName="Iron Warriors" field="selections" includeChildSelections="true" scope="force" shared="true" type="equalTo" value="1"/>
-              </conditions>
-            </modifier>
-            <modifier field="hidden" type="set" value="true"/>
-          </modifiers>
-        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -25626,7 +25623,6 @@ Athanaeans - Telepathy</description>
       </costs>
       <infoLinks>
         <infoLink name="Feel No Pain" id="44c8-a102-8ab3-2152" hidden="false" targetId="3c7d-11d6-e265-abb4" type="rule"/>
-        <infoLink name="Tank Hunters" id="d896-2e1c-caf0-621c" hidden="false" targetId="4378-c0f8-107a-4e3e" type="rule"/>
       </infoLinks>
       <rules>
         <rule name="Blood Feud" id="8df1-d76c-537e-2406" hidden="false">
