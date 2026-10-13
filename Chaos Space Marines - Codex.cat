@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Chaos Space Marines: Codex (2012)" id="5af86795-95c1-a1eb-c333-17137242b62f" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2033" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Chaos Space Marines: Codex (2012)" id="5af86795-95c1-a1eb-c333-17137242b62f" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2034" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Core" id="bf93-7277-bf48-16f7" hidden="false"/>
     <categoryEntry name="Command" id="9050-d437-3301-7e42" hidden="false"/>
@@ -11772,7 +11772,26 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <cost name="pts" typeId="points" value="35"/>
       </costs>
       <entryLinks>
-        <entryLink name="Chaos Vehicle Upgrades" id="ec63af4f-a129-155f-6885-12259b3cb03d" collective="false" hidden="false" import="true" targetId="767879b7-ee12-d3c5-5523-498a308a5850" type="selectionEntryGroup"/>
+        <entryLink name="Chaos Vehicle Upgrades" id="ec63af4f-a129-155f-6885-12259b3cb03d" collective="false" hidden="false" import="true" targetId="767879b7-ee12-d3c5-5523-498a308a5850" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry name="Rhino Advancer (Lore)" id="38c8-6ba1-65ae-fe88" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="a38e-85de-cd5d-b630" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="0"/>
+                <constraint id="4b9f-c9bb-a360-361d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+              </costs>
+              <profiles>
+                <profile name="Rhino Advancer" id="d6b7-238f-88db-36c2" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Rhino gains the Open-topped keyword. Its transport capacity increases to 20. Note that this affects its Access Points and Fire Points as detailed in the appropriate rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
         <entryLink name="Legacies of Ruin (Tanks)" id="46d99cee-c043-dbbd-b1d2-67a425a51c1d" collective="false" hidden="false" import="true" targetId="9be57471-9796-716e-1145-bd67dedf8425" type="selectionEntryGroup"/>
         <entryLink name="Smoke Launchers" id="363e-9c3b-1151-e223" collective="false" hidden="false" import="true" targetId="12ab-f49a-fc79-0e30" type="selectionEntry"/>
         <entryLink name="Searchlight" id="46b6-0108-3dfd-2f4d" collective="false" hidden="false" import="true" targetId="9a52-7dfa-ebd7-2fb6" type="selectionEntry"/>
@@ -11794,6 +11813,13 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Fire Points" typeId="fe20-e124-2c11-86ee">Two models can fire from the top hatch.</characteristic>
             <characteristic name="Access Points" typeId="21e5-4518-a31c-7e56">One Access Point on each side and one at the rear.</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier field="15aa-1916-a38b-d223" type="set" value="20">
+              <conditions>
+                <condition childId="38c8-6ba1-65ae-fe88" childName="Rhino Advancer (Lore)" field="selections" includeChildSelections="false" scope="parent" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <selectionEntries>
@@ -19118,6 +19144,16 @@ Enemy units that are within 12&quot; of at least two units from this formation s
         <infoLink name="Daemon" id="6894-f6d4-f11a-ea87" hidden="false" targetId="3eda-669d-bd54-e3c0" type="rule"/>
         <infoLink name="Deep Strike" id="4ae8-1d61-85e4-b1b0" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
         <infoLink name="Slow and Purposeful" id="e8e3-cc54-58ae-93c5" hidden="false" targetId="e6bc-ea23-502f-5042" type="rule"/>
+        <infoLink name="Tank Hunters" id="4cc4-5e1d-6dbb-1de3" hidden="false" targetId="4378-c0f8-107a-4e3e" type="rule">
+          <modifiers>
+            <modifier field="hidden" type="set" value="false">
+              <conditions>
+                <condition childId="4e4a-5727-13e8-cc49" childName="Iron Warriors" field="selections" includeChildSelections="true" scope="force" shared="true" type="equalTo" value="1"/>
+              </conditions>
+            </modifier>
+            <modifier field="hidden" type="set" value="true"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
