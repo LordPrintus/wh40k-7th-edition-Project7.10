@@ -18758,6 +18758,19 @@ Enemy units that are within 12&quot; of at least two units from this formation s
         <infoLink name="Bulky" id="45c7-c8ed-205a-a943" hidden="false" targetId="b4c1-e1df-b875-92a6" type="rule"/>
         <infoLink name="Daemon" id="f6b4-0489-6d4e-d5ef" hidden="false" targetId="3eda-669d-bd54-e3c0" type="rule"/>
         <infoLink name="Slow and Purposeful" id="8821-5ee8-ab23-7828" hidden="false" targetId="e6bc-ea23-502f-5042" type="rule"/>
+        <infoLink name="Tank Hunters" id="7897-ed4f-e21e-c034" hidden="true" targetId="4378-c0f8-107a-4e3e" type="rule">
+          <modifiers>
+            <modifier field="hidden" type="set" value="false">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="76ea-9f16-a18f-7520" childName="Iron Warriors" field="selections" includeChildSelections="true" scope="force" shared="true" type="equalTo" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -19171,6 +19184,19 @@ Enemy units that are within 12&quot; of at least two units from this formation s
         <infoLink name="Daemon" id="6894-f6d4-f11a-ea87" hidden="false" targetId="3eda-669d-bd54-e3c0" type="rule"/>
         <infoLink name="Deep Strike" id="4ae8-1d61-85e4-b1b0" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
         <infoLink name="Slow and Purposeful" id="e8e3-cc54-58ae-93c5" hidden="false" targetId="e6bc-ea23-502f-5042" type="rule"/>
+        <infoLink name="Tank Hunters" id="46f6-c932-5a52-c845" hidden="true" targetId="4378-c0f8-107a-4e3e" type="rule">
+          <modifiers>
+            <modifier field="hidden" type="set" value="false">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="76ea-9f16-a18f-7520" childName="Iron Warriors" field="selections" includeChildSelections="true" scope="force" shared="true" type="equalTo" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
