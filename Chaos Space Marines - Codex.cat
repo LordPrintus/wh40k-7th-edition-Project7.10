@@ -11806,9 +11806,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle(Tank, Transport)</characteristic>
           </characteristics>
           <modifiers>
-            <modifier affects="recursive" field="077c342f-d7b9-45c6-b8af-88e97cafd3a2" type="set" value="Vehicle(Tank, Transport), Open-opped">
+            <modifier field="077c342f-d7b9-45c6-b8af-88e97cafd3a2" type="set" value="Vehicle(Tank, Transport), Open-topped">
               <conditions>
-                <condition childId="38c8-6ba1-65ae-fe88" childName="Rhino Advancer (Lore)" field="selections" includeChildSelections="true" scope="d34d-7bfe-53d1-ac77" shared="true" type="atLeast" value="1"/>
+                <condition childId="38c8-6ba1-65ae-fe88" childName="Rhino Advancer (Lore)" field="selections" includeChildSelections="true" scope="92082917-801e-6a7c-2d3e-c14721c244bc" shared="true" type="equalTo" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -11820,19 +11820,19 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Access Points" typeId="21e5-4518-a31c-7e56">One Access Point on each side and one at the rear.</characteristic>
           </characteristics>
           <modifiers>
-            <modifier affects="recursive" field="15aa-1916-a38b-d223" type="set" value="20 models. May not carry Bulky, Very Bulky, or Extremely Bulky models">
+            <modifier field="15aa-1916-a38b-d223" type="set" value="20 models. May not carry Bulky, Very Bulky, or Extremely Bulky models">
               <conditions>
-                <condition childId="38c8-6ba1-65ae-fe88" childName="Rhino Advancer (Lore)" field="selections" includeChildSelections="true" scope="d34d-7bfe-53d1-ac77" shared="true" type="atLeast" value="1"/>
+                <condition childId="38c8-6ba1-65ae-fe88" childName="Rhino Advancer (Lore)" field="selections" includeChildSelections="true" scope="92082917-801e-6a7c-2d3e-c14721c244bc" shared="true" type="equalTo" value="1"/>
               </conditions>
             </modifier>
-            <modifier affects="recursive" field="fe20-e124-2c11-86ee" type="set" value="Open-topped">
+            <modifier field="fe20-e124-2c11-86ee" type="set" value="Open-topped">
               <conditions>
-                <condition childId="38c8-6ba1-65ae-fe88" childName="Rhino Advancer (Lore)" field="selections" includeChildSelections="true" scope="d34d-7bfe-53d1-ac77" shared="true" type="atLeast" value="1"/>
+                <condition childId="38c8-6ba1-65ae-fe88" childName="Rhino Advancer (Lore)" field="selections" includeChildSelections="true" scope="92082917-801e-6a7c-2d3e-c14721c244bc" shared="true" type="equalTo" value="1"/>
               </conditions>
             </modifier>
-            <modifier affects="recursive" field="21e5-4518-a31c-7e56" type="set" value="Open-topped">
+            <modifier field="21e5-4518-a31c-7e56" type="set" value="Open-topped">
               <conditions>
-                <condition childId="38c8-6ba1-65ae-fe88" childName="Rhino Advancer (Lore)" field="selections" includeChildSelections="true" scope="d34d-7bfe-53d1-ac77" shared="true" type="atLeast" value="1"/>
+                <condition childId="38c8-6ba1-65ae-fe88" childName="Rhino Advancer (Lore)" field="selections" includeChildSelections="true" scope="92082917-801e-6a7c-2d3e-c14721c244bc" shared="true" type="equalTo" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
