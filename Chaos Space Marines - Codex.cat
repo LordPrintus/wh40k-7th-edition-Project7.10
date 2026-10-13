@@ -11779,7 +11779,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <constraint id="4b9f-c9bb-a360-361d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="15"/>
+                <cost name="pts" typeId="points" value="20"/>
               </costs>
               <profiles>
                 <profile name="Rhino Advancer" id="d6b7-238f-88db-36c2" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -11805,6 +11805,13 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle(Tank, Transport)</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier field="077c342f-d7b9-45c6-b8af-88e97cafd3a2" type="set" value="Vehicle(Tank, Transport), Open-opped">
+              <conditions>
+                <condition childId="38c8-6ba1-65ae-fe88" childName="Rhino Advancer (Lore)" field="selections" includeChildSelections="false" scope="parent" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
         <profile name="Chaos Rhino" id="6a33-9de1-9d22-7e19" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
           <characteristics>
@@ -11813,7 +11820,17 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Access Points" typeId="21e5-4518-a31c-7e56">One Access Point on each side and one at the rear.</characteristic>
           </characteristics>
           <modifiers>
-            <modifier field="15aa-1916-a38b-d223" type="set" value="20">
+            <modifier field="15aa-1916-a38b-d223" type="replace" value="20 models. May not carry Bulky, Very Bulky, or Extremely Bulky models">
+              <conditions>
+                <condition childId="38c8-6ba1-65ae-fe88" childName="Rhino Advancer (Lore)" field="selections" includeChildSelections="false" scope="parent" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+            <modifier field="fe20-e124-2c11-86ee" type="replace" value="Open-topped">
+              <conditions>
+                <condition childId="38c8-6ba1-65ae-fe88" childName="Rhino Advancer (Lore)" field="selections" includeChildSelections="false" scope="parent" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+            <modifier field="21e5-4518-a31c-7e56" type="replace" value="Open-topped">
               <conditions>
                 <condition childId="38c8-6ba1-65ae-fe88" childName="Rhino Advancer (Lore)" field="selections" includeChildSelections="false" scope="parent" shared="true" type="atLeast" value="1"/>
               </conditions>
