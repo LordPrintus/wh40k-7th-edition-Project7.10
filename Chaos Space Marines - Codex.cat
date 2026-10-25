@@ -13931,9 +13931,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry name="Chosen" id="d553-752e-86d1-19fd" collective="false" hidden="false" import="true" page="0" type="unit">
-      <costs>
-        <cost name="pts" typeId="points" value="90"/>
-      </costs>
       <entryLinks>
         <entryLink name="Draznicht&apos;s Ravagers" id="e3f7-bc5a-4a11-9d5c" collective="false" hidden="false" import="true" targetId="a5dbfed5-7768-9674-4650-71a5c5103417" type="selectionEntry"/>
         <entryLink name="Veterans of the Long War" id="2fc8-462c-b6cd-a4cc" collective="false" hidden="false" import="true" targetId="4b22-0159-608f-b59d" type="selectionEntry">
@@ -14880,8 +14877,8 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <cost name="pts" typeId="points" value="18"/>
                   </costs>
                   <entryLinks>
-                    <entryLink name="Bolt Pistol" id="6ef4-b105-f567-b2cf" collective="false" hidden="false" import="true" targetId="0fb1-728b-64a6-603d" type="selectionEntry"/>
-                    <entryLink name="Close Combat Weapon" id="c80e-349c-d76b-4e2e" collective="false" hidden="false" import="true" targetId="73ec-1ed3-aa0d-c08c" type="selectionEntry"/>
+                    <entryLink name="Bolt Pistol" id="6ef4-b105-f567-b2cf" collective="false" hidden="false" import="true" sortIndex="1" targetId="0fb1-728b-64a6-603d" type="selectionEntry"/>
+                    <entryLink name="Close Combat Weapon" id="c80e-349c-d76b-4e2e" collective="false" hidden="false" import="true" sortIndex="2" targetId="73ec-1ed3-aa0d-c08c" type="selectionEntry"/>
                   </entryLinks>
                   <profiles>
                     <profile name="Chosen" id="be92-b24e-4d86-5270" hidden="false" page="0" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
