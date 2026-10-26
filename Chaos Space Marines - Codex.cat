@@ -14410,7 +14410,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry name="Chosen With Special Weapons" id="893a-2d78-4eaa-2b0c" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Chosen With Special Weapons" id="893a-2d78-4eaa-2b0c" hidden="false" import="true" type="model">
               <constraints>
                 <constraint id="709e-a453-050c-9c12" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
               </constraints>
@@ -14418,7 +14418,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <cost name="pts" typeId="points" value="18"/>
               </costs>
               <selectionEntries>
-                <selectionEntry name="Chosen with Special Pistol" id="b755-8eaf-240f-b528" collapsible="true" hidden="false" import="true" type="model">
+                <selectionEntry name="Chosen with Special Pistol" id="b755-8eaf-240f-b528" collapsible="true" hidden="false" import="true" sortIndex="2" type="upgrade">
                   <entryLinks>
                     <entryLink name="Close Combat Weapon" id="8263-bffb-52b3-be50" collective="false" hidden="false" import="true" targetId="73ec-1ed3-aa0d-c08c" type="selectionEntry"/>
                   </entryLinks>
@@ -14494,7 +14494,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
-                <selectionEntry name="Chosen with Special Melee Weapon" id="32bd-8770-95f7-d676" collapsible="true" hidden="false" import="true" type="model">
+                <selectionEntry name="Chosen with Special Melee Weapon" id="32bd-8770-95f7-d676" collapsible="true" hidden="false" import="true" sortIndex="3" type="upgrade">
                   <entryLinks>
                     <entryLink name="Bolt Pistol" id="8b3b-ff9e-24f1-ff4a" collective="false" hidden="false" import="true" targetId="0fb1-728b-64a6-603d" type="selectionEntry"/>
                   </entryLinks>
@@ -14653,7 +14653,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
-                <selectionEntry name="Chosen with Special Ranged Weapon" id="7c05-ee75-ac65-dd3c" collapsible="true" hidden="false" import="true" type="model">
+                <selectionEntry name="Chosen with Special Ranged Weapon" id="7c05-ee75-ac65-dd3c" collapsible="true" hidden="false" import="true" sortIndex="4" type="upgrade">
                   <entryLinks>
                     <entryLink name="Bolt Pistol" id="9d87-a88e-7a66-ca61" collective="false" hidden="false" import="true" sortIndex="1" targetId="0fb1-728b-64a6-603d" type="selectionEntry"/>
                     <entryLink name="Close Combat Weapon" id="1732-33e6-1e7b-c8c2" collective="false" hidden="false" import="true" sortIndex="2" targetId="73ec-1ed3-aa0d-c08c" type="selectionEntry"/>
@@ -14754,7 +14754,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
-                <selectionEntry name="Chosen with Heavy Weapon" id="98e0-38b9-d032-f0a4" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Chosen with Heavy Weapon" id="98e0-38b9-d032-f0a4" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <constraints>
                     <constraint id="3dda-a7bd-e7e2-f9dd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -14860,7 +14860,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntry>
-                <selectionEntry name="Chosen with Pair of Lightning Claws" id="25ac-9441-66e3-9507" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Chosen with Pair of Lightning Claws" id="25ac-9441-66e3-9507" hidden="false" import="true" sortIndex="5" type="upgrade">
                   <selectionEntries>
                     <selectionEntry name="Pair of Lightning Claws" id="721d-c840-b7ea-8100" hidden="false" import="true" type="upgrade">
                       <constraints>
