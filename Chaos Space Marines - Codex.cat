@@ -10072,7 +10072,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <entryLink name="Specialists" id="3321-1fb9-1a78-d3ad" collective="false" hidden="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry name="Chaos Biker Champion" id="b35c-cb5f-113c-38a9" collective="false" hidden="false" import="true" page="0" type="model">
+        <selectionEntry name="Chaos Biker Champion" id="b35c-cb5f-113c-38a9" collective="false" hidden="false" import="true" page="0" sortIndex="1" type="model">
           <constraints>
             <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -10081,7 +10081,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <cost name="pts" typeId="points" value="30"/>
           </costs>
           <entryLinks>
-            <entryLink name="Weapons" id="d801-abca-fd03-2953" collective="false" hidden="false" import="true" targetId="cab4-ac81-3d8d-27a2" type="selectionEntryGroup"/>
             <entryLink name="Frag and Krak Grenades" id="c995-e1c2-e648-e0a2" collective="false" hidden="false" import="true" targetId="6f76-b208-b053-f904" type="selectionEntry"/>
             <entryLink name="Gift of Mutation" id="cce3-18b2-85cd-3776" collective="false" hidden="false" import="true" targetId="2486-fac0-a7b8-b110" type="selectionEntry"/>
           </entryLinks>
@@ -10151,8 +10150,211 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Weapons" id="bc15-4212-38ab-0e5e" hidden="false">
+              <constraints>
+                <constraint id="758f-32f3-6673-c620" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+                <constraint id="ae38-a85e-e7d1-e485" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Ranged Weapons" id="b0de-ebe8-6fe2-e353" collective="false" defaultSelectionEntryId="4d77-3b37-6109-2d23" hidden="false" import="true">
+                  <constraints>
+                    <constraint id="eeef-2d3d-1041-f9a5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="6783-a05f-b427-ef5a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry name="Boltgun" id="80fe-a70e-f7cd-c53c" collective="false" defaultAmount="1" hidden="false" import="true" sortIndex="2" type="upgrade">
+                      <constraints>
+                        <constraint id="343c-dea9-c7be-0b26" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+                        <constraint id="bc08-d275-3366-89b9" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="3aa7-6b53-73e0-057a" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Bolt Pistol" id="c7d5-9deb-9d07-0785" collective="false" defaultAmount="1" hidden="false" import="true" page="0" sortIndex="1" type="upgrade">
+                      <constraints>
+                        <constraint id="7da0-59eb-d1e7-f1ff" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bolt Pistol" id="c67f-664c-12b4-8c29" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Combi-bolter" id="5451-5390-a2ec-6cb2" collective="false" hidden="false" import="true" page="0" sortIndex="3" type="upgrade">
+                      <constraints>
+                        <constraint id="e21a-69d2-8964-cee0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+                        <constraint id="f1ed-c8f4-832b-a02d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="3"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Combi-Bolter" id="5a17-dcac-b76e-16d2" hidden="false" targetId="40d66948-d966-cfee-bbec-f78da952dd38" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Plasma Pistol" id="e66d-e605-7523-8121" collective="false" hidden="false" import="true" page="0" sortIndex="7" type="upgrade">
+                      <constraints>
+                        <constraint id="9006-2ec5-7535-e9e0" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="e06b-1ec1-3c0a-921b" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Combi-flamer" id="c9e9-e524-53df-7ccd" collective="false" hidden="false" import="true" sortIndex="4" type="upgrade">
+                      <constraints>
+                        <constraint id="cb23-e5c6-1bfb-39a4" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="9470-a486-2dcf-de25" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                        <infoLink name="Combi-Flamer" id="0ea0-a09d-6acd-4a0a" hidden="false" targetId="122f-02f5-9d74-2af9" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Combi-melta" id="32be-3b2b-9404-8d5d" collective="false" hidden="false" import="true" sortIndex="5" type="upgrade">
+                      <constraints>
+                        <constraint id="7af9-b32d-34ae-2a67" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="f32b-d497-5118-eafb" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                        <infoLink name="Combi-Melta" id="471c-d579-0779-ac0f" hidden="false" targetId="1e05-65fd-ab51-c570" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Combi-plasma" id="7a4f-afa9-fc89-a59d" collective="false" hidden="false" import="true" sortIndex="6" type="upgrade">
+                      <constraints>
+                        <constraint id="d828-98a1-cac0-7029" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="23c3-ec22-6aad-fd33" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                        <infoLink name="Combi-Melta" id="f473-1f43-6144-fbef" hidden="false" targetId="1e05-65fd-ab51-c570" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Melee Weapons" id="72ce-74eb-46f6-2538" hidden="false">
+                  <constraints>
+                    <constraint id="77d3-f428-ee41-54ab" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="257a-3715-b611-f6ae" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry name="Power Axe" id="1810-5f03-74ba-84cf" collective="false" hidden="false" import="true" sortIndex="4" type="upgrade">
+                      <constraints>
+                        <constraint id="226a-194b-2f5f-b01e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Axe" id="2770-c32e-8da0-f885" hidden="false" targetId="4635-64e7-2344-ea7c" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Power Lance" id="cd08-8079-ba8e-76e4" collective="false" hidden="false" import="true" sortIndex="5" type="upgrade">
+                      <constraints>
+                        <constraint id="5fc3-ed66-70b2-69fe" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Lance" id="0cd9-a5b5-12d7-0fdb" hidden="false" targetId="de62-5c9a-e27d-3fa3" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Power Maul" id="90b8-75ff-2e7c-a4dc" collective="false" hidden="false" import="true" sortIndex="6" type="upgrade">
+                      <constraints>
+                        <constraint id="8967-acf4-3807-4431" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Maul" id="0230-456c-19c1-1f98" hidden="false" targetId="ca27-e5ee-f6eb-652d" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Power Sword" id="1c50-738e-e4d2-2deb" collective="false" hidden="false" import="true" sortIndex="7" type="upgrade">
+                      <constraints>
+                        <constraint id="4fb9-9023-f7f6-db9f" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Sword" id="6277-f2a8-1c9e-d73f" hidden="false" targetId="47df-8e01-d0cf-58e8" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Chainaxe" id="f9c5-16ad-94bb-9a02" collective="false" hidden="false" import="true" page="0" sortIndex="2" type="upgrade">
+                      <constraints>
+                        <constraint id="6e3f-541b-d5f8-459b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="8"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Chainaxe" id="9b99-608c-382c-ecbc" hidden="false" targetId="9e3c8b24-da22-72e9-f3bd-4841d62386af" type="profile"/>
+                      </infoLinks>
+                      <modifiers>
+                        <modifier field="points" type="set" value="3">
+                          <conditions>
+                            <condition childId="5e25-6a81-4f41-d20e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="false" type="instanceOf" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry name="Close Combat Weapon" id="ed4b-f6df-b243-4980" collective="false" defaultAmount="1" hidden="false" import="true" page="0" sortIndex="1" type="upgrade">
+                      <constraints>
+                        <constraint id="f625-1ac6-c672-0e18" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Close Combat Weapon" id="0393-0bf6-f569-0329" hidden="false" targetId="e294-a5c7-e01e-0a82" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Lightning Claw" id="7d5e-8073-9dd4-3ae8" collective="false" hidden="false" import="true" page="0" sortIndex="3" type="upgrade">
+                      <constraints>
+                        <constraint id="73bf-e3e3-5bb8-6c90" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Lightning Claw" id="90c1-31f6-bcd7-e8a0" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Power Fist" id="6676-4092-6922-752a" collective="false" hidden="false" import="true" page="0" sortIndex="8" type="upgrade">
+                      <constraints>
+                        <constraint id="0623-6e69-d4a8-d7f3" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="25"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Fist" id="c51d-356b-815a-2a80" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry name="Chaos Biker" id="3987-81f6-1d99-00d1" collective="false" hidden="false" import="true" page="0" type="model">
+        <selectionEntry name="Chaos Biker" id="3987-81f6-1d99-00d1" collective="false" hidden="false" import="true" page="0" sortIndex="2" type="model">
           <constraints>
             <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="2"/>
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="9"/>
@@ -10220,7 +10422,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Special Weapons" id="8dd6-ad68-f221-bdb7" collective="false" hidden="false" import="true">
+        <selectionEntryGroup name="Special Weapons" id="8dd6-ad68-f221-bdb7" collective="false" hidden="false" import="true" sortIndex="3">
           <constraints>
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
           </constraints>
@@ -10304,7 +10506,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Chaos Icon" id="d219-7071-b56f-7154" collective="false" hidden="false" import="true">
+        <selectionEntryGroup name="Chaos Icon" id="d219-7071-b56f-7154" collective="false" hidden="false" import="true" sortIndex="4">
           <constraints>
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
