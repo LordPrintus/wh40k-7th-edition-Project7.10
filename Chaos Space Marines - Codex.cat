@@ -10163,18 +10163,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <constraint id="6783-a05f-b427-ef5a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry name="Boltgun" id="80fe-a70e-f7cd-c53c" collective="false" defaultAmount="1" hidden="false" import="true" sortIndex="2" type="upgrade">
-                      <constraints>
-                        <constraint id="343c-dea9-c7be-0b26" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
-                        <constraint id="bc08-d275-3366-89b9" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="0"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Boltgun" id="3aa7-6b53-73e0-057a" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
                     <selectionEntry name="Bolt Pistol" id="c7d5-9deb-9d07-0785" collective="false" defaultAmount="1" hidden="false" import="true" page="0" sortIndex="1" type="upgrade">
                       <constraints>
                         <constraint id="7da0-59eb-d1e7-f1ff" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
@@ -10250,7 +10238,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <selectionEntryGroup name="Melee Weapons" id="72ce-74eb-46f6-2538" hidden="false">
                   <constraints>
                     <constraint id="77d3-f428-ee41-54ab" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-                    <constraint id="257a-3715-b611-f6ae" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+                    <constraint id="257a-3715-b611-f6ae" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <selectionEntries>
                     <selectionEntry name="Power Axe" id="1810-5f03-74ba-84cf" collective="false" hidden="false" import="true" sortIndex="4" type="upgrade">
