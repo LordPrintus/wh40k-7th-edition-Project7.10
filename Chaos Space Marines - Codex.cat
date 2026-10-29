@@ -1483,6 +1483,7 @@
       </modifiers>
     </entryLink>
     <entryLink name="Sekhetar Robots (v10)" id="a2ee-2c1a-b4c3-0ab6" hidden="false" import="true" targetId="7c40-ff7e-4230-6e12" type="selectionEntry"/>
+    <entryLink name="Chaos Beastmen (v10.)" id="81db-dabe-ebfc-0c16" hidden="false" import="true" targetId="fbe7-f6fc-c79a-ac40" type="selectionEntry"/>
   </entryLinks>
   <forceEntries>
     <forceEntry name="CSM Alpha Legion Insurgency Force" id="4c52-0890-d16d-6e5a" hidden="false">
@@ -27690,7 +27691,7 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Chaos Beastmen (v10.)" id="fbe7-f6fc-c79a-ac40" collective="false" hidden="true" import="true" type="unit">
+    <selectionEntry name="Chaos Beastmen (v10.)" id="fbe7-f6fc-c79a-ac40" collective="false" hidden="false" import="true" type="unit">
       <constraints>
         <constraint id="c991-f98e-2bd5-6eaa" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="20"/>
         <constraint id="87b0-d430-ef1d-a027" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="5"/>
