@@ -52,7 +52,16 @@
           <modifiers>
             <modifier field="hidden" type="set" value="false">
               <conditions>
-                <condition childId="1595-cd9a-be0f-b396" childName="Cypher, Lord of the Fallen" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="equalTo" value="1"/>
+                <condition childId="1595-cd9a-be0f-b396" childName="Cypher, Lord of the Fallen" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Stubborn" id="5071-fc31-02ac-8bf6" hidden="true" targetId="a1e0-247a-474f-2f5a" type="rule">
+          <modifiers>
+            <modifier field="hidden" type="set" value="false">
+              <conditions>
+                <condition childId="1595-cd9a-be0f-b396" childName="Cypher, Lord of the Fallen" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -64,7 +73,7 @@
           <modifiers>
             <modifier field="hidden" type="set" value="false">
               <conditions>
-                <condition childId="1595-cd9a-be0f-b396" childName="Cypher, Lord of the Fallen" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="equalTo" value="1"/>
+                <condition childId="1595-cd9a-be0f-b396" childName="Cypher, Lord of the Fallen" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
