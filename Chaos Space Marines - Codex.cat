@@ -28050,7 +28050,7 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Chaos Minotaur with Two Weapons" id="f31c-775c-920f-482c" defaultAmount="0" hidden="false" import="true" type="model">
+            <selectionEntry name="Chaos Minotaur with Two Weapons" id="f31c-775c-920f-482c" hidden="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="60"/>
               </costs>
