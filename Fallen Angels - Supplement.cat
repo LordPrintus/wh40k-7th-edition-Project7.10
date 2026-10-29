@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Fallen Angels: Rise of the Primarch (2017)" id="b3f5-5360-d390-6159" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2003" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Fallen Angels: Rise of the Primarch (2017)" id="b3f5-5360-d390-6159" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2004" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="10df-395b-b84f-361a" collective="false" hidden="false" import="true" targetId="8c52-2cd3-1b1a-3b11" type="selectionEntry">
+    <entryLink name="Fallen Champions" id="10df-395b-b84f-361a" collective="false" hidden="false" import="true" targetId="8c52-2cd3-1b1a-3b11" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="10df-395b-b84f-361a-28b94f51-e66b-4096-aa59-0c9df620a77d" hidden="false" primary="true" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d"/>
+        <categoryLink name="Formation" id="10df-395b-b84f-361a-28b94f51-e66b-4096-aa59-0c9df620a77d" hidden="false" primary="true" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b938-45f5-8a74-2c80" collective="false" hidden="false" import="true" targetId="fc44-f47f-6e24-a29c" type="selectionEntry">
+    <entryLink name="Triumvirate of the Primarch" id="b938-45f5-8a74-2c80" collective="false" hidden="false" import="true" targetId="fc44-f47f-6e24-a29c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b938-45f5-8a74-2c80-28b94f51-e66b-4096-aa59-0c9df620a77d" hidden="false" primary="true" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d"/>
+        <categoryLink name="Formation" id="b938-45f5-8a74-2c80-28b94f51-e66b-4096-aa59-0c9df620a77d" hidden="false" primary="true" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="aab9-754a-cd65-f70e" collective="false" hidden="false" import="true" targetId="1595-cd9a-be0f-b396" type="selectionEntry">
+    <entryLink name="Cypher, Lord of the Fallen" id="aab9-754a-cd65-f70e" collective="false" hidden="false" import="true" targetId="1595-cd9a-be0f-b396" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="aab9-754a-cd65-f70e-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="aab9-754a-cd65-f70e-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7290-8d02-6dc9-c2c2" collective="false" hidden="false" import="true" targetId="cd50-f9ef-ceaa-28e6" type="selectionEntry">
+    <entryLink name="Fallen" id="7290-8d02-6dc9-c2c2" collective="false" hidden="false" import="true" targetId="cd50-f9ef-ceaa-28e6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7290-8d02-6dc9-c2c2-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="7290-8d02-6dc9-c2c2-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -36,8 +36,8 @@
         <cost name="pts" typeId="points" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink id="6a99-1d67-1a51-4c73" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
-        <infoLink id="572c-5a30-def3-4226" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+        <infoLink name="Krak Grenades" id="6a99-1d67-1a51-4c73" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
+        <infoLink name="Assault Grenades" id="572c-5a30-def3-4226" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Fallen" id="cd50-f9ef-ceaa-28e6" collective="false" hidden="false" import="true" page="122" publicationId="b3f5-5360-pubN65537" type="unit">
@@ -45,8 +45,31 @@
         <cost name="pts" typeId="points" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink id="a93e-ad76-5b7f-0df7" collective="false" hidden="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
+        <entryLink name="Specialists" id="a93e-ad76-5b7f-0df7" collective="false" hidden="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
       </entryLinks>
+      <infoLinks>
+        <infoLink name="Infiltrate" id="993b-0bed-199c-c572" hidden="true" targetId="0b11-a0ff-f0ba-5341" type="rule">
+          <modifiers>
+            <modifier field="hidden" type="set" value="false">
+              <conditions>
+                <condition childId="1595-cd9a-be0f-b396" childName="Cypher, Lord of the Fallen" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <rules>
+        <rule name="Fallen Leader" id="1cc4-3e8f-9813-405d" hidden="true">
+          <description>Fallen Leader: Any unit from this Formation that is within 12&quot; of Cypher has the And They Shall Know No Fear and Stubborn special rules.</description>
+          <modifiers>
+            <modifier field="hidden" type="set" value="false">
+              <conditions>
+                <condition childId="1595-cd9a-be0f-b396" childName="Cypher, Lord of the Fallen" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="equalTo" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </rule>
+      </rules>
       <selectionEntries>
         <selectionEntry name="Fallen Champion" id="82ed-a218-8a0c-ffe5" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
@@ -57,7 +80,7 @@
             <cost name="pts" typeId="points" value="20"/>
           </costs>
           <entryLinks>
-            <entryLink id="97d3-cd11-c432-6962" collective="false" hidden="false" import="true" targetId="daf0-d4ee-fa58-d911" type="selectionEntry"/>
+            <entryLink name="Frag &amp; Krak Grenades" id="97d3-cd11-c432-6962" collective="false" hidden="false" import="true" targetId="daf0-d4ee-fa58-d911" type="selectionEntry"/>
           </entryLinks>
           <profiles>
             <profile name="Fallen Champion" id="d3df-a018-3c0f-ad8f" hidden="false" page="122" publicationId="b3f5-5360-pubN65537" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -84,9 +107,9 @@
                 <cost name="pts" typeId="points" value="5"/>
               </costs>
               <infoLinks>
-                <infoLink id="8c75-f15d-146b-ca85" hidden="false" targetId="df40-a3f4-91be-f0fe" type="profile"/>
-                <infoLink id="2f60-58e0-b5da-dbdc" hidden="false" targetId="3858-bd8f-cf37-f5a6" type="rule"/>
-                <infoLink id="c396-4e7b-353a-b96b" hidden="false" targetId="3498-7560-3a1a-9e27" type="rule"/>
+                <infoLink name="Melta Bomb" id="8c75-f15d-146b-ca85" hidden="false" targetId="df40-a3f4-91be-f0fe" type="profile"/>
+                <infoLink name="Unwieldy" id="2f60-58e0-b5da-dbdc" hidden="false" targetId="3858-bd8f-cf37-f5a6" type="rule"/>
+                <infoLink name="Armourbane" id="c396-4e7b-353a-b96b" hidden="false" targetId="3498-7560-3a1a-9e27" type="rule"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -106,7 +129,7 @@
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="eea5-84cd-6767-0e6e" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+                    <infoLink name="Bolt Pistol" id="eea5-84cd-6767-0e6e" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
                   </infoLinks>
                   <modifiers>
                     <modifier field="9b88-f042-a43f-bf2b" type="set" value="0"/>
@@ -121,7 +144,7 @@
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="e46f-af2a-d4f4-f744" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                    <infoLink name="Boltgun" id="e46f-af2a-d4f4-f744" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
                   </infoLinks>
                   <modifiers>
                     <modifier field="8a16-8102-f405-4ee0" type="set" value="0"/>
@@ -135,7 +158,7 @@
                     <cost name="pts" typeId="points" value="5"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="ed84-3951-ec8a-b2af" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+                    <infoLink name="Flamer" id="ed84-3951-ec8a-b2af" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Lightning Claw" id="5e76-87d1-19f8-b93c" collective="false" hidden="false" import="true" type="upgrade">
@@ -146,9 +169,9 @@
                     <cost name="pts" typeId="points" value="15"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="41ee-d53e-5759-1fe5" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
-                    <infoLink id="80ee-20dd-8d31-a67d" hidden="false" targetId="5770-35c6-7341-5527" type="rule"/>
-                    <infoLink id="e663-2ead-e1d1-5870" hidden="false" targetId="6981-e5a9-c7d1-9332" type="rule"/>
+                    <infoLink name="Lightning Claw" id="41ee-d53e-5759-1fe5" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
+                    <infoLink name="Shred" id="80ee-20dd-8d31-a67d" hidden="false" targetId="5770-35c6-7341-5527" type="rule"/>
+                    <infoLink name="Specialist Weapon" id="e663-2ead-e1d1-5870" hidden="false" targetId="6981-e5a9-c7d1-9332" type="rule"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Plasma Pistol" id="7a88-d39b-7065-6ef5" collective="false" hidden="false" import="true" type="upgrade">
@@ -159,8 +182,8 @@
                     <cost name="pts" typeId="points" value="15"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="15b9-451f-d25f-2ba8" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
-                    <infoLink id="3e4f-cec9-a32d-f0d3" hidden="false" targetId="4e9f-4f6f-6fbc-6418" type="rule"/>
+                    <infoLink name="Plasma Pistol" id="15b9-451f-d25f-2ba8" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
+                    <infoLink name="Gets Hot" id="3e4f-cec9-a32d-f0d3" hidden="false" targetId="4e9f-4f6f-6fbc-6418" type="rule"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Power Fist" id="d33e-a6e7-72cb-55dd" collective="false" hidden="false" import="true" type="upgrade">
@@ -171,9 +194,9 @@
                     <cost name="pts" typeId="points" value="25"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="47d8-9c1c-f9b9-2f58" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
-                    <infoLink id="a8ec-862b-21f3-1ec3" hidden="false" targetId="6981-e5a9-c7d1-9332" type="rule"/>
-                    <infoLink id="cbea-dc38-b317-45d6" hidden="false" targetId="3858-bd8f-cf37-f5a6" type="rule"/>
+                    <infoLink name="Power Fist" id="47d8-9c1c-f9b9-2f58" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
+                    <infoLink name="Specialist Weapon" id="a8ec-862b-21f3-1ec3" hidden="false" targetId="6981-e5a9-c7d1-9332" type="rule"/>
+                    <infoLink name="Unwieldy" id="cbea-dc38-b317-45d6" hidden="false" targetId="3858-bd8f-cf37-f5a6" type="rule"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Power Axe" id="3645-e17f-6db0-6101" collective="false" hidden="false" import="true" type="upgrade">
@@ -184,8 +207,8 @@
                     <cost name="pts" typeId="points" value="15"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="f970-fa52-cfd1-5060" hidden="false" targetId="4635-64e7-2344-ea7c" type="profile"/>
-                    <infoLink id="0b2f-228c-61d4-eee1" hidden="false" targetId="3858-bd8f-cf37-f5a6" type="rule"/>
+                    <infoLink name="Power Axe" id="f970-fa52-cfd1-5060" hidden="false" targetId="4635-64e7-2344-ea7c" type="profile"/>
+                    <infoLink name="Unwieldy" id="0b2f-228c-61d4-eee1" hidden="false" targetId="3858-bd8f-cf37-f5a6" type="rule"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Power Lance" id="f36a-2480-f605-5a91" collective="false" hidden="false" import="true" type="upgrade">
@@ -196,7 +219,7 @@
                     <cost name="pts" typeId="points" value="15"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="397f-a528-4047-dfa0" hidden="false" targetId="de62-5c9a-e27d-3fa3" type="profile"/>
+                    <infoLink name="Power Lance" id="397f-a528-4047-dfa0" hidden="false" targetId="de62-5c9a-e27d-3fa3" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Power Maul" id="e371-9248-ed35-1501" collective="false" hidden="false" import="true" type="upgrade">
@@ -207,8 +230,8 @@
                     <cost name="pts" typeId="points" value="15"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="20d1-d9b8-4f2e-6fab" hidden="false" targetId="ca27-e5ee-f6eb-652d" type="profile"/>
-                    <infoLink id="c90e-691f-356f-01df" hidden="false" targetId="d0ea-e2a6-032d-8754" type="rule"/>
+                    <infoLink name="Power Maul" id="20d1-d9b8-4f2e-6fab" hidden="false" targetId="ca27-e5ee-f6eb-652d" type="profile"/>
+                    <infoLink name="Concussive" id="c90e-691f-356f-01df" hidden="false" targetId="d0ea-e2a6-032d-8754" type="rule"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Power Sword" id="265b-d4cc-dc33-017b" collective="false" hidden="false" import="true" type="upgrade">
@@ -219,7 +242,7 @@
                     <cost name="pts" typeId="points" value="15"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="0f12-55f4-a9a4-1106" hidden="false" targetId="47df-8e01-d0cf-58e8" type="profile"/>
+                    <infoLink name="Power Sword" id="0f12-55f4-a9a4-1106" hidden="false" targetId="47df-8e01-d0cf-58e8" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Combi-flamer" id="3459-6c52-8b2f-6c35" collective="false" hidden="false" import="true" type="upgrade">
@@ -230,8 +253,8 @@
                     <cost name="pts" typeId="points" value="10"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="af37-a72b-9843-a0d4" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-                    <infoLink id="fb05-d6f3-d20e-f0d2" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+                    <infoLink name="Boltgun" id="af37-a72b-9843-a0d4" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                    <infoLink name="Flamer" id="fb05-d6f3-d20e-f0d2" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Combi-melta" id="12c9-287b-9c02-d448" collective="false" hidden="false" import="true" type="upgrade">
@@ -242,9 +265,9 @@
                     <cost name="pts" typeId="points" value="10"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="ef99-576d-1e0b-4f06" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-                    <infoLink id="4141-7f1c-035a-5533" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
-                    <infoLink id="c754-c832-9169-beca" hidden="false" targetId="bc4c-234f-0293-98a7" type="rule"/>
+                    <infoLink name="Boltgun" id="ef99-576d-1e0b-4f06" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                    <infoLink name="Meltagun" id="4141-7f1c-035a-5533" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
+                    <infoLink name="Melta" id="c754-c832-9169-beca" hidden="false" targetId="bc4c-234f-0293-98a7" type="rule"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Combi-plasma" id="452c-2af4-a374-1c24" collective="false" hidden="false" import="true" type="upgrade">
@@ -255,9 +278,9 @@
                     <cost name="pts" typeId="points" value="10"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="a0d4-e92a-a3ae-45db" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-                    <infoLink id="e813-eb15-e592-1d2d" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
-                    <infoLink id="4c8b-06a8-5721-b91c" hidden="false" targetId="4e9f-4f6f-6fbc-6418" type="rule"/>
+                    <infoLink name="Boltgun" id="a0d4-e92a-a3ae-45db" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                    <infoLink name="Plasma Gun" id="e813-eb15-e592-1d2d" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
+                    <infoLink name="Gets Hot" id="4c8b-06a8-5721-b91c" hidden="false" targetId="4e9f-4f6f-6fbc-6418" type="rule"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Close Combat Weapon" id="e644-38c3-6d45-81a8" collective="false" hidden="false" import="true" type="upgrade">
@@ -269,7 +292,7 @@
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="d75a-b18b-5120-e9a3" hidden="false" targetId="e294-a5c7-e01e-0a82" type="profile"/>
+                    <infoLink name="Close Combat Weapon" id="d75a-b18b-5120-e9a3" hidden="false" targetId="e294-a5c7-e01e-0a82" type="profile"/>
                   </infoLinks>
                   <modifiers>
                     <modifier field="2898-d30d-bf53-7894" type="set" value="0"/>
@@ -295,7 +318,7 @@
                 <cost name="pts" typeId="points" value="20"/>
               </costs>
               <entryLinks>
-                <entryLink id="a7d9-6d42-1079-34e4" collective="false" hidden="false" import="true" targetId="daf0-d4ee-fa58-d911" type="selectionEntry"/>
+                <entryLink name="Frag &amp; Krak Grenades" id="a7d9-6d42-1079-34e4" collective="false" hidden="false" import="true" targetId="daf0-d4ee-fa58-d911" type="selectionEntry"/>
               </entryLinks>
               <profiles>
                 <profile name="Fallen" id="cf81-6733-6162-f55d" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -323,7 +346,7 @@
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="7878-7e55-ef66-c128" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                    <infoLink name="Boltgun" id="7878-7e55-ef66-c128" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Bolt Pistol" id="3204-d5e6-22dc-1fb2" collective="true" hidden="false" import="true" type="upgrade">
@@ -335,7 +358,7 @@
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="d581-b478-4082-c8e7" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+                    <infoLink name="Bolt Pistol" id="d581-b478-4082-c8e7" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Close Combat Weapon" id="0957-2f18-e4b8-74f3" collective="true" hidden="false" import="true" type="upgrade">
@@ -347,7 +370,7 @@
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="8876-e454-d64f-af04" hidden="false" targetId="e294-a5c7-e01e-0a82" type="profile"/>
+                    <infoLink name="Close Combat Weapon" id="8876-e454-d64f-af04" hidden="false" targetId="e294-a5c7-e01e-0a82" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -360,7 +383,7 @@
                 <cost name="pts" typeId="points" value="20"/>
               </costs>
               <entryLinks>
-                <entryLink id="059c-0399-fe12-a5d1" collective="false" hidden="false" import="true" targetId="daf0-d4ee-fa58-d911" type="selectionEntry"/>
+                <entryLink name="Frag &amp; Krak Grenades" id="059c-0399-fe12-a5d1" collective="false" hidden="false" import="true" targetId="daf0-d4ee-fa58-d911" type="selectionEntry"/>
               </entryLinks>
               <profiles>
                 <profile name="Fallen" id="7368-8285-ee2c-c3a8" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -388,7 +411,7 @@
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="adc7-d9cc-08d5-cfb0" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+                    <infoLink name="Bolt Pistol" id="adc7-d9cc-08d5-cfb0" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Close Combat Weapon" id="5b72-5c6d-a009-f083" collective="false" hidden="false" import="true" type="upgrade">
@@ -400,7 +423,7 @@
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="bfeb-ab44-6b2f-00ee" hidden="false" targetId="e294-a5c7-e01e-0a82" type="profile"/>
+                    <infoLink name="Close Combat Weapon" id="bfeb-ab44-6b2f-00ee" hidden="false" targetId="e294-a5c7-e01e-0a82" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -416,7 +439,7 @@
                         <cost name="pts" typeId="points" value="10"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="a525-212b-b9b9-0d5f" hidden="false" targetId="fa99-0671-b31a-22d7" type="profile"/>
+                        <infoLink name="Autocannon" id="a525-212b-b9b9-0d5f" hidden="false" targetId="fa99-0671-b31a-22d7" type="profile"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry name="Flamer" id="6fd9-bccf-0312-c4c0" collective="false" hidden="false" import="true" type="upgrade">
@@ -424,7 +447,7 @@
                         <cost name="pts" typeId="points" value="5"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="e01e-3849-c205-9b8c" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+                        <infoLink name="Flamer" id="e01e-3849-c205-9b8c" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry name="Heavy Bolter" id="28cc-fa10-647e-6d50" collective="false" hidden="false" import="true" type="upgrade">
@@ -432,7 +455,7 @@
                         <cost name="pts" typeId="points" value="10"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="dbf2-e0b3-2de6-9bfc" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
+                        <infoLink name="Heavy Bolter" id="dbf2-e0b3-2de6-9bfc" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry name="Missile Launcher" id="0d2a-b20e-de1d-e960" collective="false" hidden="false" import="true" type="upgrade">
@@ -440,8 +463,8 @@
                         <cost name="pts" typeId="points" value="15"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="c23e-df67-c229-b662" hidden="false" targetId="603d-3e82-38f6-c5c3" type="profile"/>
-                        <infoLink id="7e84-dd80-738b-f95e" hidden="false" targetId="8161-3b0e-8048-0e83" type="profile"/>
+                        <infoLink name="Frag Missiles" id="c23e-df67-c229-b662" hidden="false" targetId="603d-3e82-38f6-c5c3" type="profile"/>
+                        <infoLink name="Krak Missiles" id="7e84-dd80-738b-f95e" hidden="false" targetId="8161-3b0e-8048-0e83" type="profile"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry name="Meltagun" id="9062-fb99-b426-eab2" collective="false" hidden="false" import="true" type="upgrade">
@@ -449,8 +472,8 @@
                         <cost name="pts" typeId="points" value="10"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="63a7-455a-8159-149b" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
-                        <infoLink id="b74d-6cd1-83cd-8ea7" hidden="false" targetId="bc4c-234f-0293-98a7" type="rule"/>
+                        <infoLink name="Meltagun" id="63a7-455a-8159-149b" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
+                        <infoLink name="Melta" id="b74d-6cd1-83cd-8ea7" hidden="false" targetId="bc4c-234f-0293-98a7" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry name="Plasma Gun" id="35c6-4a42-a8f0-b6cd" collective="false" hidden="false" import="true" type="upgrade">
@@ -458,8 +481,8 @@
                         <cost name="pts" typeId="points" value="15"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="9c79-32e9-d8cf-87fb" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
-                        <infoLink id="a613-3500-260f-a890" hidden="false" targetId="4e9f-4f6f-6fbc-6418" type="rule"/>
+                        <infoLink name="Plasma Gun" id="9c79-32e9-d8cf-87fb" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
+                        <infoLink name="Gets Hot" id="a613-3500-260f-a890" hidden="false" targetId="4e9f-4f6f-6fbc-6418" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry name="Lascannon" id="1b91-59f0-6f90-b03b" collective="false" hidden="false" import="true" type="upgrade">
@@ -467,7 +490,7 @@
                         <cost name="pts" typeId="points" value="20"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="5e25-0670-82c5-c583" hidden="false" targetId="f14a-07e5-5465-69cf" type="profile"/>
+                        <infoLink name="Lascannon" id="5e25-0670-82c5-c583" hidden="false" targetId="f14a-07e5-5465-69cf" type="profile"/>
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
@@ -482,7 +505,7 @@
                 <cost name="pts" typeId="points" value="20"/>
               </costs>
               <entryLinks>
-                <entryLink id="3db8-c141-8922-39af" collective="false" hidden="false" import="true" targetId="daf0-d4ee-fa58-d911" type="selectionEntry"/>
+                <entryLink name="Frag &amp; Krak Grenades" id="3db8-c141-8922-39af" collective="false" hidden="false" import="true" targetId="daf0-d4ee-fa58-d911" type="selectionEntry"/>
               </entryLinks>
               <profiles>
                 <profile name="Fallen" id="1698-6afe-debd-167c" hidden="false" page="122" publicationId="b3f5-5360-pubN65537" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -509,9 +532,9 @@
                     <cost name="pts" typeId="points" value="30"/>
                   </costs>
                   <infoLinks>
-                    <infoLink id="65eb-a45d-816c-9bcc" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
-                    <infoLink id="a6dc-789f-c619-51c5" hidden="false" targetId="5770-35c6-7341-5527" type="rule"/>
-                    <infoLink id="d6c0-9337-fa0c-be5a" hidden="false" targetId="6981-e5a9-c7d1-9332" type="rule"/>
+                    <infoLink name="Lightning Claw" id="65eb-a45d-816c-9bcc" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
+                    <infoLink name="Shred" id="a6dc-789f-c619-51c5" hidden="false" targetId="5770-35c6-7341-5527" type="rule"/>
+                    <infoLink name="Specialist Weapon" id="d6c0-9337-fa0c-be5a" hidden="false" targetId="6981-e5a9-c7d1-9332" type="rule"/>
                   </infoLinks>
                   <modifiers>
                     <modifier field="hidden" type="set" value="true">
@@ -550,7 +573,7 @@
                         <cost name="pts" typeId="points" value="0"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="dd62-f0a1-6fb4-0f15" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+                        <infoLink name="Bolt Pistol" id="dd62-f0a1-6fb4-0f15" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry name="Plasma Pistol" id="87a5-7ff6-47d1-7237" collective="false" hidden="false" import="true" type="upgrade">
@@ -558,8 +581,8 @@
                         <cost name="pts" typeId="points" value="15"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="a5aa-9447-04b1-7587" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
-                        <infoLink id="1fbd-e581-1386-3098" hidden="false" targetId="4e9f-4f6f-6fbc-6418" type="rule"/>
+                        <infoLink name="Plasma Pistol" id="a5aa-9447-04b1-7587" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
+                        <infoLink name="Gets Hot" id="1fbd-e581-1386-3098" hidden="false" targetId="4e9f-4f6f-6fbc-6418" type="rule"/>
                       </infoLinks>
                       <modifiers>
                         <modifier field="hidden" type="set" value="true">
@@ -612,7 +635,7 @@
                         <cost name="pts" typeId="points" value="0"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="355d-91fc-39b3-5abf" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                        <infoLink name="Boltgun" id="355d-91fc-39b3-5abf" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry name="Combi-flamer" id="3f07-943e-4036-2332" collective="false" hidden="false" import="true" type="upgrade">
@@ -620,8 +643,8 @@
                         <cost name="pts" typeId="points" value="10"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="fcae-d13d-de71-c240" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-                        <infoLink id="93fc-a166-35d7-f728" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+                        <infoLink name="Boltgun" id="fcae-d13d-de71-c240" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                        <infoLink name="Flamer" id="93fc-a166-35d7-f728" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
                       </infoLinks>
                       <modifiers>
                         <modifier field="hidden" type="set" value="true">
@@ -654,9 +677,9 @@
                         <cost name="pts" typeId="points" value="10"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="d476-eb6b-3e6a-3b88" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-                        <infoLink id="ba96-931d-6af4-5929" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
-                        <infoLink id="8d3c-3ad6-4e41-ac4d" hidden="false" targetId="bc4c-234f-0293-98a7" type="rule"/>
+                        <infoLink name="Boltgun" id="d476-eb6b-3e6a-3b88" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                        <infoLink name="Meltagun" id="ba96-931d-6af4-5929" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
+                        <infoLink name="Melta" id="8d3c-3ad6-4e41-ac4d" hidden="false" targetId="bc4c-234f-0293-98a7" type="rule"/>
                       </infoLinks>
                       <modifiers>
                         <modifier field="hidden" type="set" value="true">
@@ -689,9 +712,9 @@
                         <cost name="pts" typeId="points" value="10"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="8522-e6a1-327d-a658" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-                        <infoLink id="b41a-0319-3023-597a" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
-                        <infoLink id="e4f7-4037-a3a8-932d" hidden="false" targetId="4e9f-4f6f-6fbc-6418" type="rule"/>
+                        <infoLink name="Boltgun" id="8522-e6a1-327d-a658" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+                        <infoLink name="Plasma Gun" id="b41a-0319-3023-597a" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
+                        <infoLink name="Gets Hot" id="e4f7-4037-a3a8-932d" hidden="false" targetId="4e9f-4f6f-6fbc-6418" type="rule"/>
                       </infoLinks>
                       <modifiers>
                         <modifier field="hidden" type="set" value="true">
@@ -724,7 +747,7 @@
                         <cost name="pts" typeId="points" value="5"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="202d-8fe3-d60e-1dc7" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+                        <infoLink name="Flamer" id="202d-8fe3-d60e-1dc7" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
                       </infoLinks>
                       <modifiers>
                         <modifier field="hidden" type="set" value="true">
@@ -757,8 +780,8 @@
                         <cost name="pts" typeId="points" value="10"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="b832-a1d1-c116-ab32" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
-                        <infoLink id="233b-4279-ae60-5cef" hidden="false" targetId="bc4c-234f-0293-98a7" type="rule"/>
+                        <infoLink name="Meltagun" id="b832-a1d1-c116-ab32" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
+                        <infoLink name="Melta" id="233b-4279-ae60-5cef" hidden="false" targetId="bc4c-234f-0293-98a7" type="rule"/>
                       </infoLinks>
                       <modifiers>
                         <modifier field="hidden" type="set" value="true">
@@ -791,8 +814,8 @@
                         <cost name="pts" typeId="points" value="15"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="fb45-4212-ae09-5f6a" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
-                        <infoLink id="22f5-1c80-f456-1339" hidden="false" targetId="4e9f-4f6f-6fbc-6418" type="rule"/>
+                        <infoLink name="Plasma Gun" id="fb45-4212-ae09-5f6a" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
+                        <infoLink name="Gets Hot" id="22f5-1c80-f456-1339" hidden="false" targetId="4e9f-4f6f-6fbc-6418" type="rule"/>
                       </infoLinks>
                       <modifiers>
                         <modifier field="hidden" type="set" value="true">
@@ -833,7 +856,7 @@
                         <cost name="pts" typeId="points" value="0"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="719e-e2af-6d54-bd68" hidden="false" targetId="e294-a5c7-e01e-0a82" type="profile"/>
+                        <infoLink name="Close Combat Weapon" id="719e-e2af-6d54-bd68" hidden="false" targetId="e294-a5c7-e01e-0a82" type="profile"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry name="Power Axe" id="77e5-0264-a680-46da" collective="false" hidden="false" import="true" type="upgrade">
@@ -841,8 +864,8 @@
                         <cost name="pts" typeId="points" value="15"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="5b4f-5ff8-c092-b933" hidden="false" targetId="4635-64e7-2344-ea7c" type="profile"/>
-                        <infoLink id="1925-cb1d-917b-6697" hidden="false" targetId="3858-bd8f-cf37-f5a6" type="rule"/>
+                        <infoLink name="Power Axe" id="5b4f-5ff8-c092-b933" hidden="false" targetId="4635-64e7-2344-ea7c" type="profile"/>
+                        <infoLink name="Unwieldy" id="1925-cb1d-917b-6697" hidden="false" targetId="3858-bd8f-cf37-f5a6" type="rule"/>
                       </infoLinks>
                       <modifiers>
                         <modifier field="hidden" type="set" value="true">
@@ -875,9 +898,9 @@
                         <cost name="pts" typeId="points" value="25"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="6776-03dd-a6fc-4e06" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
-                        <infoLink id="9401-b4d0-50a5-97d1" hidden="false" targetId="6981-e5a9-c7d1-9332" type="rule"/>
-                        <infoLink id="c49d-59ba-59b3-a4f1" hidden="false" targetId="3858-bd8f-cf37-f5a6" type="rule"/>
+                        <infoLink name="Power Fist" id="6776-03dd-a6fc-4e06" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
+                        <infoLink name="Specialist Weapon" id="9401-b4d0-50a5-97d1" hidden="false" targetId="6981-e5a9-c7d1-9332" type="rule"/>
+                        <infoLink name="Unwieldy" id="c49d-59ba-59b3-a4f1" hidden="false" targetId="3858-bd8f-cf37-f5a6" type="rule"/>
                       </infoLinks>
                       <modifiers>
                         <modifier field="hidden" type="set" value="true">
@@ -910,8 +933,8 @@
                         <cost name="pts" typeId="points" value="15"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="a83a-9b13-4519-1f79" hidden="false" targetId="ca27-e5ee-f6eb-652d" type="profile"/>
-                        <infoLink id="83f5-7fec-cf3b-bb66" hidden="false" targetId="d0ea-e2a6-032d-8754" type="rule"/>
+                        <infoLink name="Power Maul" id="a83a-9b13-4519-1f79" hidden="false" targetId="ca27-e5ee-f6eb-652d" type="profile"/>
+                        <infoLink name="Concussive" id="83f5-7fec-cf3b-bb66" hidden="false" targetId="d0ea-e2a6-032d-8754" type="rule"/>
                       </infoLinks>
                       <modifiers>
                         <modifier field="hidden" type="set" value="true">
@@ -944,7 +967,7 @@
                         <cost name="pts" typeId="points" value="15"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="e310-7d60-f0c6-de93" hidden="false" targetId="de62-5c9a-e27d-3fa3" type="profile"/>
+                        <infoLink name="Power Lance" id="e310-7d60-f0c6-de93" hidden="false" targetId="de62-5c9a-e27d-3fa3" type="profile"/>
                       </infoLinks>
                       <modifiers>
                         <modifier field="hidden" type="set" value="true">
@@ -977,7 +1000,7 @@
                         <cost name="pts" typeId="points" value="15"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="c960-e577-dd7b-96cf" hidden="false" targetId="47df-8e01-d0cf-58e8" type="profile"/>
+                        <infoLink name="Power Sword" id="c960-e577-dd7b-96cf" hidden="false" targetId="47df-8e01-d0cf-58e8" type="profile"/>
                       </infoLinks>
                       <modifiers>
                         <modifier field="hidden" type="set" value="true">
@@ -1010,9 +1033,9 @@
                         <cost name="pts" typeId="points" value="15"/>
                       </costs>
                       <infoLinks>
-                        <infoLink id="184f-80ec-b558-fe84" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
-                        <infoLink id="0c1b-e9a6-e567-6ce2" hidden="false" targetId="5770-35c6-7341-5527" type="rule"/>
-                        <infoLink id="8e19-ec42-d089-967b" hidden="false" targetId="6981-e5a9-c7d1-9332" type="rule"/>
+                        <infoLink name="Lightning Claw" id="184f-80ec-b558-fe84" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
+                        <infoLink name="Shred" id="0c1b-e9a6-e567-6ce2" hidden="false" targetId="5770-35c6-7341-5527" type="rule"/>
+                        <infoLink name="Specialist Weapon" id="8e19-ec42-d089-967b" hidden="false" targetId="6981-e5a9-c7d1-9332" type="rule"/>
                       </infoLinks>
                       <modifiers>
                         <modifier field="hidden" type="set" value="true">
@@ -1053,13 +1076,13 @@
         <cost name="pts" typeId="points" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink id="fb20-5cd5-dcec-a8e6" collective="false" hidden="false" import="true" targetId="cd50-f9ef-ceaa-28e6" type="selectionEntry">
+        <entryLink name="Fallen" id="fb20-5cd5-dcec-a8e6" collective="false" hidden="false" import="true" targetId="cd50-f9ef-ceaa-28e6" type="selectionEntry">
           <constraints>
             <constraint id="79d0-1ce6-9e2c-0679" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="1036-c877-ca86-92e9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
           </constraints>
         </entryLink>
-        <entryLink id="efbc-ca84-4259-017c" collective="false" hidden="false" import="true" targetId="1595-cd9a-be0f-b396" type="selectionEntry">
+        <entryLink name="Cypher, Lord of the Fallen" id="efbc-ca84-4259-017c" collective="false" hidden="false" import="true" targetId="1595-cd9a-be0f-b396" type="selectionEntry">
           <constraints>
             <constraint id="da6a-e79c-dffe-59d3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="e899-b9c2-d55c-ab52" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -1067,9 +1090,9 @@
         </entryLink>
       </entryLinks>
       <infoLinks>
-        <infoLink id="d726-f4aa-4f5f-8a60" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
-        <infoLink id="9f23-7c4e-5e33-de74" hidden="false" targetId="2e56-6b02-4343-0e40" type="rule"/>
-        <infoLink id="8ad0-c7c7-74ad-58e3" hidden="false" targetId="a1e0-247a-474f-2f5a" type="rule"/>
+        <infoLink name="Infiltrate" id="d726-f4aa-4f5f-8a60" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+        <infoLink name="And They Shall Know No Fear" id="9f23-7c4e-5e33-de74" hidden="false" targetId="2e56-6b02-4343-0e40" type="rule"/>
+        <infoLink name="Stubborn" id="8ad0-c7c7-74ad-58e3" hidden="false" targetId="a1e0-247a-474f-2f5a" type="rule"/>
       </infoLinks>
       <rules>
         <rule name="Fallen Leader" id="c4c4-50e6-39b3-0b75" hidden="false" page="123" publicationId="b3f5-5360-pubN65537">
@@ -1082,7 +1105,7 @@
         <cost name="pts" typeId="points" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink id="d1f1-31c8-908a-e227" collective="false" hidden="false" import="true" targetId="1595-cd9a-be0f-b396" type="selectionEntry">
+        <entryLink name="Cypher, Lord of the Fallen" id="d1f1-31c8-908a-e227" collective="false" hidden="false" import="true" targetId="1595-cd9a-be0f-b396" type="selectionEntry">
           <constraints>
             <constraint id="6589-d2c5-f9b5-2593" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="58cc-bf59-6a66-2594" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -1090,7 +1113,7 @@
         </entryLink>
       </entryLinks>
       <infoLinks>
-        <infoLink id="b5f4-509b-b2fa-564b" hidden="false" targetId="a1e0-247a-474f-2f5a" type="rule"/>
+        <infoLink name="Stubborn" id="b5f4-509b-b2fa-564b" hidden="false" targetId="a1e0-247a-474f-2f5a" type="rule"/>
       </infoLinks>
       <rules>
         <rule name="Touched by Fate" id="c1ff-09c5-59ef-721c" hidden="false" page="130" publicationId="b3f5-5360-pubN65537">
@@ -1110,14 +1133,14 @@
             <cost name="pts" typeId="points" value="240"/>
           </costs>
           <infoLinks>
-            <infoLink id="82bd-f846-ef5a-5d69" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule">
+            <infoLink name="Psyker" id="82bd-f846-ef5a-5d69" hidden="false" targetId="7a42-bcc8-95a0-302d" type="rule">
               <modifiers>
                 <modifier field="name" type="append" value="(Mastery Level 3)"/>
               </modifiers>
             </infoLink>
-            <infoLink id="5d51-1cd7-d637-3a94" hidden="false" targetId="2e56-6b02-4343-0e40" type="rule"/>
-            <infoLink id="1176-687b-da24-56b3" hidden="false" targetId="ef3b-09c6-4024-cd37" type="rule"/>
-            <infoLink id="0bee-f049-d972-15ec" hidden="false" targetId="f217-b311-e5b1-c8c7" type="rule">
+            <infoLink name="And They Shall Know No Fear" id="5d51-1cd7-d637-3a94" hidden="false" targetId="2e56-6b02-4343-0e40" type="rule"/>
+            <infoLink name="Independent Character" id="1176-687b-da24-56b3" hidden="false" targetId="ef3b-09c6-4024-cd37" type="rule"/>
+            <infoLink name="Preferred Enemy" id="0bee-f049-d972-15ec" hidden="false" targetId="f217-b311-e5b1-c8c7" type="rule">
               <modifiers>
                 <modifier field="name" type="append" value="(Daemons)"/>
               </modifiers>
@@ -1160,7 +1183,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink id="6805-4988-ad53-7819" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
+                <infoLink name="Storm Bolter" id="6805-4988-ad53-7819" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Malleus Argyrum" id="b555-b91c-13fd-3069" collective="false" hidden="false" import="true" type="upgrade">
@@ -1172,9 +1195,9 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink id="87bd-0825-3da3-b59f" hidden="false" targetId="d0ea-e2a6-032d-8754" type="rule"/>
-                <infoLink id="c0b8-e95f-dc02-32ef" hidden="false" targetId="f588-4e5a-a032-0aee" type="rule"/>
-                <infoLink id="4346-72fb-6584-cd58" hidden="false" targetId="6981-e5a9-c7d1-9332" type="rule"/>
+                <infoLink name="Concussive" id="87bd-0825-3da3-b59f" hidden="false" targetId="d0ea-e2a6-032d-8754" type="rule"/>
+                <infoLink name="Force" id="c0b8-e95f-dc02-32ef" hidden="false" targetId="f588-4e5a-a032-0aee" type="rule"/>
+                <infoLink name="Specialist Weapon" id="4346-72fb-6584-cd58" hidden="false" targetId="6981-e5a9-c7d1-9332" type="rule"/>
               </infoLinks>
               <profiles>
                 <profile name="Malleus Argyrum" id="d682-62fe-ba8d-fa20" hidden="false" page="124" publicationId="b3f5-5360-pubN65537" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -1217,9 +1240,9 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink id="34b8-6e8f-538c-4dc1" hidden="false" targetId="b4c1-e1df-b875-92a6" type="rule"/>
-                <infoLink id="54dd-48e9-6004-44d5" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
-                <infoLink id="1e56-36ff-4fec-7fd7" hidden="false" targetId="7674-690c-ab59-1444" type="rule"/>
+                <infoLink name="Bulky" id="34b8-6e8f-538c-4dc1" hidden="false" targetId="b4c1-e1df-b875-92a6" type="rule"/>
+                <infoLink name="Deep Strike" id="54dd-48e9-6004-44d5" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
+                <infoLink name="Relentless" id="1e56-36ff-4fec-7fd7" hidden="false" targetId="7674-690c-ab59-1444" type="rule"/>
               </infoLinks>
               <profiles>
                 <profile name="Terminator Armour" id="7aef-fdc8-aac0-e9c4" hidden="false" page="126" publicationId="b3f5-5360-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -1238,8 +1261,8 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink id="2fac-3b32-3189-89bc" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
-                <infoLink id="b1e8-a77f-640d-b19d" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
+                <infoLink name="Assault Grenades" id="2fac-3b32-3189-89bc" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+                <infoLink name="Krak Grenades" id="b1e8-a77f-640d-b19d" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Psyk-out Grenades" id="21f8-5b14-1f3c-bf42" collective="false" hidden="false" import="true" type="upgrade">
@@ -1283,14 +1306,14 @@
             <cost name="pts" typeId="points" value="350"/>
           </costs>
           <infoLinks>
-            <infoLink id="b26d-6ae4-2308-db60" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
-            <infoLink id="19d5-f233-6af8-d565" hidden="false" targetId="f172-03fe-1e9f-c363" type="rule"/>
-            <infoLink id="c43c-1ba4-1fa6-2f6d" hidden="false" targetId="3c7d-11d6-e265-abb4" type="rule"/>
-            <infoLink id="1113-ae9f-3aee-802e" hidden="false" targetId="8714-46ad-62c0-ce35" type="rule"/>
-            <infoLink id="b736-54c5-e2ce-aecf" hidden="false" targetId="8d37-2e47-4a04-58f7" type="rule"/>
-            <infoLink id="cadc-f452-9f10-0507" hidden="false" targetId="540d-b15f-f709-3bf9" type="rule"/>
-            <infoLink id="74bb-f83d-1b2d-5831" hidden="false" targetId="80c8-1041-d0f1-6e58" type="rule"/>
-            <infoLink id="28a9-61a4-78af-007b" hidden="false" targetId="f217-b311-e5b1-c8c7" type="rule">
+            <infoLink name="Fleet" id="b26d-6ae4-2308-db60" hidden="false" targetId="39c6-1f20-a156-47f4" type="rule"/>
+            <infoLink name="Eternal Warrior" id="19d5-f233-6af8-d565" hidden="false" targetId="f172-03fe-1e9f-c363" type="rule"/>
+            <infoLink name="Feel No Pain" id="c43c-1ba4-1fa6-2f6d" hidden="false" targetId="3c7d-11d6-e265-abb4" type="rule"/>
+            <infoLink name="Adamantium Will" id="1113-ae9f-3aee-802e" hidden="false" targetId="8714-46ad-62c0-ce35" type="rule"/>
+            <infoLink name="Fearless" id="b736-54c5-e2ce-aecf" hidden="false" targetId="8d37-2e47-4a04-58f7" type="rule"/>
+            <infoLink name="Precision Shots" id="cadc-f452-9f10-0507" hidden="false" targetId="540d-b15f-f709-3bf9" type="rule"/>
+            <infoLink name="Precision Strikes" id="74bb-f83d-1b2d-5831" hidden="false" targetId="80c8-1041-d0f1-6e58" type="rule"/>
+            <infoLink name="Preferred Enemy" id="28a9-61a4-78af-007b" hidden="false" targetId="f217-b311-e5b1-c8c7" type="rule">
               <modifiers>
                 <modifier field="name" type="append" value="(Chaos)"/>
               </modifiers>
@@ -1346,7 +1369,7 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink id="afeb-ea30-e6e8-f673" hidden="false" targetId="6a76-59d1-822c-59c9" type="rule"/>
+                <infoLink name="Rending" id="afeb-ea30-e6e8-f673" hidden="false" targetId="6a76-59d1-822c-59c9" type="rule"/>
               </infoLinks>
               <profiles>
                 <profile name="Hand of Dominion" id="2ffc-98e4-0ba4-7e67" hidden="false" publicationId="b3f5-5360-pubN65537" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -1368,9 +1391,9 @@
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink id="6d9d-d5dc-8951-b1f1" hidden="false" targetId="3498-7560-3a1a-9e27" type="rule"/>
-                <infoLink id="347e-bff4-d6fc-6462" hidden="false" targetId="acb1-64c4-ef54-3a55" type="rule"/>
-                <infoLink id="2a2f-6acc-cb26-a111" hidden="false" targetId="d0ea-e2a6-032d-8754" type="rule"/>
+                <infoLink name="Armourbane" id="6d9d-d5dc-8951-b1f1" hidden="false" targetId="3498-7560-3a1a-9e27" type="rule"/>
+                <infoLink name="Soul Blaze" id="347e-bff4-d6fc-6462" hidden="false" targetId="acb1-64c4-ef54-3a55" type="rule"/>
+                <infoLink name="Concussive" id="2a2f-6acc-cb26-a111" hidden="false" targetId="d0ea-e2a6-032d-8754" type="rule"/>
               </infoLinks>
               <profiles>
                 <profile name="The Empereor&apos;s Sword" id="12f1-c6f0-fd9f-c99f" hidden="false" publicationId="b3f5-5360-pubN65537" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
