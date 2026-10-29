@@ -1483,7 +1483,11 @@
       </modifiers>
     </entryLink>
     <entryLink name="Sekhetar Robots (v10)" id="a2ee-2c1a-b4c3-0ab6" hidden="false" import="true" targetId="7c40-ff7e-4230-6e12" type="selectionEntry"/>
-    <entryLink name="Chaos Beastmen (v10.)" id="81db-dabe-ebfc-0c16" hidden="false" import="true" targetId="fbe7-f6fc-c79a-ac40" type="selectionEntry"/>
+    <entryLink name="Chaos Beastmen (v10.)" id="81db-dabe-ebfc-0c16" hidden="false" import="true" targetId="fbe7-f6fc-c79a-ac40" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Troops" id="6107-7bf5-fb50-d0bf" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <forceEntries>
     <forceEntry name="CSM Alpha Legion Insurgency Force" id="4c52-0890-d16d-6e5a" hidden="false">
@@ -27714,6 +27718,9 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
           <costs>
             <cost name="pts" typeId="points" value="17"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Champion of Chaos" id="3d03-409c-9383-80a0" hidden="false" targetId="ae970133-d0be-0936-0b4b-009985e0be18" type="rule"/>
+          </infoLinks>
           <profiles>
             <profile name="Beastman Champion" id="c7f3-a49a-4e5a-cac4" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
               <characteristics>
