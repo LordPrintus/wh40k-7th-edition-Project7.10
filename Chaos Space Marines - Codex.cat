@@ -27888,13 +27888,10 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Chaos Minotaurs" id="d968-07a9-1af5-678f" hidden="false" import="true" type="unit">
+    <selectionEntry name="Chaos Minotaurs (Lore)" id="d968-07a9-1af5-678f" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Elites" id="d337-5a4f-3cb1-1e67" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="50"/>
-      </costs>
       <infoLinks>
         <infoLink name="Very Bulky" id="fe49-dc02-eb93-e104" hidden="false" targetId="20e0-3f6c-f3ac-fda2" type="rule"/>
         <infoLink name="Hammer of Wrath" id="62f1-c36f-c286-30c5" hidden="false" targetId="4628-0ada-2997-8568" type="rule"/>
@@ -27910,7 +27907,7 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
             <cost name="pts" typeId="points" value="20"/>
           </costs>
           <modifiers>
-            <modifier affects="profiles.Unit" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" scope="parent" type="set" value="4+"/>
+            <modifier affects="profiles.Unit" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" scope="d968-07a9-1af5-678f" type="set" value="4+"/>
           </modifiers>
         </selectionEntry>
       </selectionEntries>
@@ -28053,7 +28050,7 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Chaos Minotaur with Two Weapons" id="f31c-775c-920f-482c" defaultAmount="1" hidden="false" import="true" type="model">
+            <selectionEntry name="Chaos Minotaur with Two Weapons" id="f31c-775c-920f-482c" defaultAmount="0" hidden="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="points" value="60"/>
               </costs>
