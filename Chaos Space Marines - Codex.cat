@@ -27756,9 +27756,9 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
               </infoLinks>
               <modifiers>
                 <modifier field="51a7-2ed8-6855-f424" type="increment" value="1">
-                  <conditions>
-                    <condition childId="any" field="selections" includeChildSelections="false" scope="d565-f155-68c0-df25" shared="true" type="atLeast" value="9"/>
-                  </conditions>
+                  <repeats>
+                    <repeat childId="any" field="selections" repeats="1" roundUp="false" scope="d565-f155-68c0-df25" shared="true" value="4"/>
+                  </repeats>
                 </modifier>
               </modifiers>
               <profiles>
