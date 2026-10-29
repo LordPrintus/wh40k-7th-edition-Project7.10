@@ -27906,9 +27906,6 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
           <costs>
             <cost name="pts" typeId="points" value="20"/>
           </costs>
-          <modifiers>
-            <modifier affects="profiles.Unit" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" scope="d968-07a9-1af5-678f" type="set" value="4+"/>
-          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -27945,6 +27942,13 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
                     <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">7</characteristic>
                     <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">5+</characteristic>
                   </characteristics>
+                  <modifiers>
+                    <modifier field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" type="set" value="4+">
+                      <conditions>
+                        <condition childId="d541-d01b-74ca-4cfc" childName="Carapace Armour" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </profile>
               </profiles>
               <selectionEntryGroups>
@@ -28015,6 +28019,13 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
                     <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">6</characteristic>
                     <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">5+</characteristic>
                   </characteristics>
+                  <modifiers>
+                    <modifier field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" type="set" value="4+">
+                      <conditions>
+                        <condition childId="d541-d01b-74ca-4cfc" childName="Carapace Armour" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </profile>
               </profiles>
             </selectionEntry>
@@ -28039,6 +28050,13 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
                     <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">6</characteristic>
                     <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">5+</characteristic>
                   </characteristics>
+                  <modifiers>
+                    <modifier field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" type="set" value="4+">
+                      <conditions>
+                        <condition childId="d541-d01b-74ca-4cfc" childName="Carapace Armour" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </profile>
                 <profile name="Great Weapon" id="851c-6454-c4ad-a611" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
@@ -28071,6 +28089,13 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
                     <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">6</characteristic>
                     <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">5+</characteristic>
                   </characteristics>
+                  <modifiers>
+                    <modifier field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" type="set" value="4+">
+                      <conditions>
+                        <condition childId="d541-d01b-74ca-4cfc" childName="Carapace Armour" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </profile>
                 <profile name="Pair of Close Combat Weapons" id="adda-c3de-b169-982c" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
