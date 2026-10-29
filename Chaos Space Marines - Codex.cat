@@ -27691,7 +27691,7 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Chaos Beastmen (v10.)" id="fbe7-f6fc-c79a-ac40" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Chaos Beastmen (v10.)" id="fbe7-f6fc-c79a-ac40" hidden="false" import="true" type="unit">
       <constraints>
         <constraint id="c991-f98e-2bd5-6eaa" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="20"/>
         <constraint id="87b0-d430-ef1d-a027" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="5"/>
