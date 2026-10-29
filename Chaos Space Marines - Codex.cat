@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Chaos Space Marines: Codex (2012)" id="5af86795-95c1-a1eb-c333-17137242b62f" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2039" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Chaos Space Marines: Codex (2012)" id="5af86795-95c1-a1eb-c333-17137242b62f" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2040" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Core" id="bf93-7277-bf48-16f7" hidden="false"/>
     <categoryEntry name="Command" id="9050-d437-3301-7e42" hidden="false"/>
@@ -27689,6 +27689,191 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
           </rules>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Chaos Beastmen (v10.)" id="fbe7-f6fc-c79a-ac40" collective="false" hidden="true" import="true" type="upgrade">
+      <constraints>
+        <constraint id="c991-f98e-2bd5-6eaa" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="20"/>
+        <constraint id="87b0-d430-ef1d-a027" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="5"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Specialists" id="4aa7-6fdf-4352-51c3" collective="false" hidden="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Move Through Cover" id="6924-0bff-9552-9a70" hidden="false" targetId="7ecc-bc3d-6e22-63dc" type="rule"/>
+        <infoLink name="Furious Charge" id="bff0-6bb6-1012-a26d" hidden="false" targetId="b6da-cce3-2346-9c27" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry name="Beastman Champion" id="c8a0-518b-98ef-01db" collective="false" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="2d80-ad1a-cf4f-e1bc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="17"/>
+          </costs>
+          <profiles>
+            <profile name="Beastman Champion" id="c7f3-a49a-4e5a-cac4" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+                <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+                <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+                <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
+                <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+                <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+                <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+                <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+                <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
+                <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Weapons" id="789c-d24c-1778-b12d" hidden="false">
+              <constraints>
+                <constraint id="e2e5-c373-8e4e-6893" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+                <constraint id="7bb3-3743-f251-8534" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Ranged Weapons" id="925f-a597-4303-f01c" collective="false" defaultSelectionEntryId="4d77-3b37-6109-2d23" hidden="false" import="true">
+                  <constraints>
+                    <constraint id="66d9-2991-dd09-8e42" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="14af-a2db-bf00-2943" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry name="Bolt Pistol" id="05ea-680f-f889-8e2f" collective="false" defaultAmount="1" hidden="false" import="true" page="0" sortIndex="1" type="upgrade">
+                      <constraints>
+                        <constraint id="ab02-3772-e86e-0ad0" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bolt Pistol" id="78f1-4445-3801-32a9" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Plasma Pistol" id="f63b-fbc4-49da-f47a" collective="false" hidden="false" import="true" page="0" sortIndex="7" type="upgrade">
+                      <constraints>
+                        <constraint id="e06e-e215-a381-2f16" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="cafe-3398-1bd8-2147" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Melee Weapons" id="1bf0-e224-fc6d-bbab" hidden="false">
+                  <constraints>
+                    <constraint id="1e05-a811-8929-054c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="4461-70b6-45cc-42da" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry name="Chainaxe" id="11e8-251f-bce9-dd48" collective="false" hidden="false" import="true" page="0" sortIndex="2" type="upgrade">
+                      <constraints>
+                        <constraint id="78da-5432-6f77-19ae" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="8"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Chainaxe" id="889b-cda4-714b-1217" hidden="false" targetId="9e3c8b24-da22-72e9-f3bd-4841d62386af" type="profile"/>
+                      </infoLinks>
+                      <modifiers>
+                        <modifier field="points" type="set" value="3">
+                          <conditions>
+                            <condition childId="5e25-6a81-4f41-d20e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="false" type="instanceOf" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry name="Close Combat Weapon" id="f839-8916-b16d-9840" collective="false" defaultAmount="1" hidden="false" import="true" page="0" sortIndex="1" type="upgrade">
+                      <constraints>
+                        <constraint id="33c6-010e-9083-8878" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Close Combat Weapon" id="5f02-6251-dbe0-d6e3" hidden="false" targetId="e294-a5c7-e01e-0a82" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Beastman Pack" id="d565-f155-68c0-df25" hidden="false">
+          <selectionEntries>
+            <selectionEntry name="Beastman with Pistol and CCW" id="e868-3f8a-6bf7-4f29" collective="false" defaultAmount="5" hidden="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="points" value="7"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Autopistol" id="6a61-c8f5-da4f-ca4f" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
+                <infoLink name="Close Combat Weapon" id="9ca6-033d-44be-012a" hidden="false" targetId="e294-a5c7-e01e-0a82" type="profile"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Beastman" id="2b91-2d3d-ddd5-a78e" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+                    <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+                    <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+                    <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
+                    <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+                    <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+                    <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+                    <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+                    <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">7</characteristic>
+                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Beastman with Two-handed weapon" id="dd09-ceb6-205f-d8be" hidden="false" import="true" type="model">
+              <constraints>
+                <constraint id="51a7-2ed8-6855-f424" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="12"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Autopistol" id="dd4b-960a-aed4-cba4" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Beastman" id="4292-faf6-14c7-6d7d" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+                    <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+                    <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+                    <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
+                    <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+                    <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+                    <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+                    <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+                    <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">7</characteristic>
+                    <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">5+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Two-handed weapon" id="107e-ee80-ad3e-c994" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Two-handed</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
